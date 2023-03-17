@@ -1,0 +1,72 @@
+fuel gauge
+noun
+a part that shows how much fuel a vehicle or fuel tank has
+His fuel gauge doesn’t seem to be working properly.
+When we looked at the fuel gauge, we could see that the tank was only half full.
+
+indicate
+verb
+to show something
+He says it’s indicating a different amount than what’s actually in the tank. 
+A warning message indicated that there was a problem with the engine.
+
+out of calibration
+phrase
+not measuring correctly according to a standard
+The fuel gauge could be out of calibration. 
+The mechanic needed to fix the pressure gauge because it was out of calibration.
+
+fuel-level sensor
+noun
+a part in the fuel tank that measures how much fuel is in the tank
+Or the fuel-level sensor in the tank might be defective. 
+Since the fuel-level sensor broke, we didn't know that we had gotten low on fuel.
+
+defective
+adjective
+not working properly, often because it was not properly made
+Or the fuel-level sensor in the tank might be defective.
+The switch was defective; when I turned it on, it didn't work.
+
+attitude
+noun
+the position of an airplane in flight in relationship to the horizon
+Oh, and the pilot also mentioned there seems to be something a little off with the plane’s flight attitude. 
+The attitude of the plane changed when there was a problem with the left wing.
+
+tendency
+noun
+When something often behaves in a certain way, it has a tendency to behave that way.
+Seems it has a slight tendency to roll left and pitch down over the course of the flight. 
+The airplane had a tendency to turn to the right.
+
+roll
+verb
+to rotate toward the right or the left
+Seems it has a slight tendency to roll left and pitch down over the course of the flight. 
+The airplane rolled quickly to the right just before the accident.
+
+pitch
+verb
+to rotate in a way that makes the aircraft point up or down at an angle
+Seems it has a slight tendency to roll left and pitch down over the course of the flight. 
+The airplane pitched down, but the pilot brought the nose back up.
+
+aileron
+noun
+an important control surface on an airplane wing that helps the plane rotate to the left or right
+I’ll check the ailerons and the elevator and let you know what I find out.
+The problem with the aileron made the plane roll to the left too quickly.
+
+elevator
+noun
+a control surface on an airplane tail that helps the plane rotate up or down
+I’ll check the ailerons and the elevator and let you know what I find out.
+The problem with the elevator made the airplane pitch down.
+
+do some troubleshooting
+phrase
+to try to find what is making a problem happen
+I’ll do some troubleshooting and let you know how long everything will take.
+We did some troubleshooting and found that the problem was on the right wing of the airplane.
+
