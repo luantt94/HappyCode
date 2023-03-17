@@ -1,0 +1,242 @@
+Xin chào: hello
+Thực ra: actually
+lại: again
+phía trước: ahead
+báo động: alert
+tất cả: all
+cho phép: allows
+Mà còn: also
+tuyệt vời: amazing
+MỘT: an
+Và: and
+khác: another
+bất kì: any
+các ứng dụng: applications
+là: are
+mũi tên: arrow
+BẰNG: as
+mặt sau: back
+về cơ bản: basically
+là: be
+bởi vì: because
+trở nên: become
+trước: before
+hiện tại: being
+giữa: between
+chút: bit
+nhạt nhẽo: boring
+mang đến : bring
+trình duyệt: browser
+Nhưng: but
+qua: by
+máy tính: calculator
+Có thể: can
+trường hợp: case
+thay đổi: change
+trình duyệt Chrome: chrome
+nhấp chuột: clicking
+đóng cửa: closing
+mã số: code
+đến: come
+yêu cầu: command
+mệnh lệnh: commands
+các khái niệm: concepts
+bảng điều khiển: console
+sao chép: copy
+sao chép: copying
+khóa học: course
+ctrl+alt+j: ctrl+alt+j
+xác định: defined
+nhà phát triển: developer
+phát triển: development
+khác biệt: different
+LÀM: do
+đừng: don't
+xuống: down
+trong lúc: during
+dễ: easy
+biên tập viên: editor
+tám: eight
+yếu tố: elements
+đi vào: enter
+bình đẳng: equal
+bằng: equals
+lỗi: errors
+đánh giá: evaluated
+mọi thứ: everything
+ví dụ: example
+cuộc thí nghiệm: experiment
+giải thích: explain
+Đầu tiên: first
+sửa chữa: fix
+nét chữ: font
+vì: for
+từ: from
+vui vẻ: fun
+chức năng: function
+đã đưa cho: gave
+lấy: get
+đưa cho: give
+đi: go
+đang đi: going
+sẽ: gonna
+Tốt: good
+Google: google
+Tuyệt: great
+đã xảy ra: happened
+có: has
+đây: here
+đánh: hit
+đánh: hitting
+mong: hope
+Làm sao: how
+Tôi: i'm
+nếu như: if
+ngay lập tức: immediately
+TRONG: in
+tăng dần: increasing
+quan sát: inspect
+Cài đặt: installed
+thú vị: interested
+vào trong: into
+là: is
+Nó: it
+của nó: it's
+jav: javascript
+chỉ: just
+bàn phím: keyboard
+biết: know
+ngôn ngữ: language
+sau đó: later
+học hỏi: learn
+học hỏi: learning
+bài học: lecture
+cho phép: let
+hãy: let's
+giống: like
+đường kẻ: line
+nhỏ bé: little
+Hợp lý: logic
+lâu hơn: longer
+nhiều: lot
+mac: mac
+làm: make
+toán học: math
+thực đơn: menu
+dấu trừ: minus
+hơn: more
+di chuyển: move
+nhu cầu: need
+Kế tiếp: next
+Đẹp: nice
+KHÔNG: no
+không: not
+Không có gì: nothing
+Hiện nay: now
+của: of
+được rồi: okay
+được rồi: okay
+TRÊN: on
+một lần: once
+mở: open
+khai mạc: opening
+hoạt động: operations
+lựa chọn: option
+hoặc: or
+của chúng tôi: our
+dấu ngoặc đơn: parenthesis
+dán: pasting
+mọi người: people
+thêm: plus
+cửa sổ bật lên: popup
+khả thi: possible
+trước: previous
+lập trình: programming
+tiến triển: progress
+nhanh: quick
+thực tế: real
+kết quả: result
+trở lại: return
+Phải: right
+Phải?: right?
+đường: road
+chạy: run
+nói: said
+cái cưa: saw
+nói: say
+nói: saying
+nói: says
+phần: section
+nhìn thấy: see
+nên: should
+trình diễn: show
+hiển thị: showing
+cho xem: shown
+đơn giản: simple
+Vì thế: so
+cái gọi là: so-called
+một số: some
+không gian: space
+tiêu chuẩn: standard
+đã bắt đầu: started
+sợi dây: string
+chất liệu: stuff
+Chắc chắn: sure
+công tắc: switch
+chuyển hướng: tab
+tab: tabs
+nếm: taste
+Bài kiểm tra: test
+chữ: text
+cái đó: that
+đó là: that's
+các: the
+họ: them
+sau đó: then
+ở đó: there
+có: there's
+những cái này: these
+điều: thing
+ngày thứ ba: third
+cái này: this
+ba: three
+bởi vì: through
+thời gian: time
+ĐẾN: to
+công cụ: tools
+ĐÚNG VẬY: true
+thử: try
+đánh máy: typed
+hiểu : understand
+hướng lên: up
+chúng ta: us
+sử dụng: use
+đã sử dụng: used
+hữu ích: useful
+sử dụng: using
+Biến đổi: variable
+rất: very
+băng hình: video
+xem: view
+muốn: want
+muốn: wanted
+đường: way
+cách: ways
+chúng tôi: we
+đã từng: we're
+Gì: what
+Ở đâu: where
+cái mà: which
+sẽ: will
+cửa sổ: window
+các cửa sổ: windows
+với: with
+không có: without
+làm: works
+thế giới: world
+viết: write
+viết: writing
+chưa: yet
+Bạn: you
+bạn sẽ: you'll
+của bạn: your
