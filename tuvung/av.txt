@@ -1,0 +1,242 @@
+hello : Xin chào
+actually : Thực ra
+again : lại
+ahead : phía trước
+alert : báo động
+all : tất cả
+allows : cho phép
+also : Mà còn
+amazing : tuyệt vời
+an : MỘT
+and : Và
+another : khác
+any : bất kì
+applications : các ứng dụng
+are : là
+arrow : mũi tên
+as : BẰNG
+back : mặt sau
+basically : về cơ bản
+be : là
+because : bởi vì
+become : trở nên
+before : trước
+being : hiện tại
+between : giữa
+bit : chút
+boring : nhạt nhẽo
+bring : mang đến 
+browser : trình duyệt
+but : Nhưng
+by : qua
+calculator : máy tính
+can : Có thể
+case : trường hợp
+change : thay đổi
+chrome : trình duyệt Chrome
+clicking : nhấp chuột
+closing : đóng cửa
+code : mã số
+come : đến
+command : yêu cầu
+commands : mệnh lệnh
+concepts : các khái niệm
+console : bảng điều khiển
+copy : sao chép
+copying : sao chép
+course : khóa học
+ctrl+alt+j : ctrl+alt+j
+defined : xác định
+developer : nhà phát triển
+development : phát triển
+different : khác biệt
+do : LÀM
+don't : đừng
+down : xuống
+during : trong lúc
+easy : dễ
+editor : biên tập viên
+eight : tám
+elements : yếu tố
+enter : đi vào
+equal : bình đẳng
+equals : bằng
+errors : lỗi
+evaluated : đánh giá
+everything : mọi thứ
+example : ví dụ
+experiment : cuộc thí nghiệm
+explain : giải thích
+first : Đầu tiên
+fix : sửa chữa
+font : nét chữ
+for : vì
+from : từ
+fun : vui vẻ
+function : chức năng
+gave : đã đưa cho
+get : lấy
+give : đưa cho
+go : đi
+going : đang đi
+gonna : sẽ
+good : Tốt
+google : Google
+great : Tuyệt
+happened : đã xảy ra
+has : có
+here : đây
+hit : đánh
+hitting : đánh
+hope : mong
+how : Làm sao
+i'm : Tôi
+if : nếu như
+immediately : ngay lập tức
+in : TRONG
+increasing : tăng dần
+inspect : quan sát
+installed : Cài đặt
+interested : thú vị
+into : vào trong
+is : là
+it : Nó
+it's : của nó
+javascript : jav
+just : chỉ
+keyboard : bàn phím
+know : biết
+language : ngôn ngữ
+later : sau đó
+learn : học hỏi
+learning : học hỏi
+lecture : bài học
+let : cho phép
+let's : hãy
+like : giống
+line : đường kẻ
+little : nhỏ bé
+logic : Hợp lý
+longer : lâu hơn
+lot : nhiều
+mac : mac
+make : làm
+math : toán học
+menu : thực đơn
+minus : dấu trừ
+more : hơn
+move : di chuyển
+need : nhu cầu
+next : Kế tiếp
+nice : Đẹp
+no : KHÔNG
+not : không
+nothing : Không có gì
+now : Hiện nay
+of : của
+okay : được rồi
+okay : được rồi
+on : TRÊN
+once : một lần
+open : mở
+opening : khai mạc
+operations : hoạt động
+option : lựa chọn
+or : hoặc
+our : của chúng tôi
+parenthesis : dấu ngoặc đơn
+pasting : dán
+people : mọi người
+plus : thêm
+popup : cửa sổ bật lên
+possible : khả thi
+previous : trước
+programming : lập trình
+progress : tiến triển
+quick : nhanh
+real : thực tế
+result : kết quả
+return : trở lại
+right : Phải
+right? : Phải?
+road : đường
+run : chạy
+said : nói
+saw : cái cưa
+say : nói
+saying : nói
+says : nói
+section : phần
+see : nhìn thấy
+should : nên
+show : trình diễn
+showing : hiển thị
+shown : cho xem
+simple : đơn giản
+so : Vì thế
+so-called : cái gọi là
+some : một số
+space : không gian
+standard : tiêu chuẩn
+started : đã bắt đầu
+string : sợi dây
+stuff : chất liệu
+sure : Chắc chắn
+switch : công tắc
+tab : chuyển hướng
+tabs : tab
+taste : nếm
+test : Bài kiểm tra
+text : chữ
+that : cái đó
+that's : đó là
+the : các
+them : họ
+then : sau đó
+there : ở đó
+there's : có
+these : những cái này
+thing : điều
+third : ngày thứ ba
+this : cái này
+three : ba
+through : bởi vì
+time : thời gian
+to : ĐẾN
+tools : công cụ
+true : ĐÚNG VẬY
+try : thử
+typed : đánh máy
+understand : hiểu 
+up : hướng lên
+us : chúng ta
+use : sử dụng
+used : đã sử dụng
+useful : hữu ích
+using : sử dụng
+variable : Biến đổi
+very : rất
+video : băng hình
+view : xem
+want : muốn
+wanted : muốn
+way : đường
+ways : cách
+we : chúng tôi
+we're : đã từng
+what : Gì
+where : Ở đâu
+which : cái mà
+will : sẽ
+window : cửa sổ
+windows : các cửa sổ
+with : với
+without : không có
+works : làm
+world : thế giới
+write : viết
+writing : viết
+yet : chưa
+you : Bạn
+you'll : bạn sẽ
+your : của bạn
