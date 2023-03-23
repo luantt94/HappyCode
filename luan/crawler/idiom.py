@@ -14,6 +14,11 @@ options = webdriver.ChromeOptions()
 service_obj = Service("C:\\Users\\ADMIN\\Documents\\chromedriver.exe")
 driver = webdriver.Chrome(service=service_obj, chrome_options=options)
  
+
+# filename = __file__
+# import pdb
+# pdb.set_trace()
+# print(f"path = {filename}")
 # 001000601605
  
 driver.maximize_window()
