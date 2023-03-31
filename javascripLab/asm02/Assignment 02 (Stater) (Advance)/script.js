@@ -78,17 +78,9 @@ submitBtn.addEventListener("click", function () {
     date: new Date().toLocaleDateString('en-GB'),
   };
 
-  // Validate dữ liệu hợp lệ
-  // const isValidate = validateData(data);
-  // if (isValidate) {
-  //   petArr.push(data);
-  //   saveToStorage("petArr", petArr);
-  //   renderTableData(petArr);
-  //   deleteForm()
-  // }
+  
 
-
-  //
+  // kiểm tra
   function validateData(data) {
     
     if (data.id.trim() === "") {
@@ -120,6 +112,7 @@ submitBtn.addEventListener("click", function () {
   // kiểm tra trùng ID
 
   for (let i = 0; i < petArr.length; i++) {
+    
     if (idInput.value === petArr[i].id) {
       alert("ID must unique!");
       checkId = false;
@@ -127,14 +120,19 @@ submitBtn.addEventListener("click", function () {
     }
   }
 
-  // Thêm thú cưng vào danh sách
-
+ 
+ // Validate dữ liệu hợp lệ
   const validate = validateData(data);
   if (validate) {
     petArr.push(data);
-    clearInput();
+    
+    saveToStorage("petArr", petArr);
     renderTableData(petArr);
+    clearInput();
   }
+
+
+ 
 });
 
 // Hiển thị danh sách thú cưng
@@ -152,7 +150,7 @@ function renderTableData(petArr) {
       petArr[i].color
     }"></i></td>
     <td>${
-      petArr[i].vacinated === true
+      petArr[i].vaccinated === true
         ? "<i class='bi bi-check-circle-fill'></i>"
         : "<i class='bi bi-x-circle-fill'> </i>"
     }</td>
@@ -202,12 +200,15 @@ const clearInput = () => {
 
 const deletePetId = (petId) => {
   if (confirm("Are you sure?")) {
-    for (let i = 0; i < petId.length; i++) {
+    for (let i = 0; i < petArr.length; i++) {
       if (petId === petArr[i].id) {
+        //xóa khỏi mảng
         petArr.splice(i, 1);
+        // cập nhật dữ liệu dưới local storage
         saveToStorage("petArr", petArr);
+        //gọi lại hàm hiển thị
         renderTableData(petArr);
-        
+        break;
       }
     }
   }
@@ -219,7 +220,7 @@ let healthyCheck = false;
 healthyBtn.addEventListener("click", function () {
   if (healthyCheck === true) {
     let healthyPetArr = petArr.filter((petArr) => {
-      return petArr.vacinated && petArr.dewormed && petArr.sterilized;
+      return petArr.vaccinated && petArr.dewormed && petArr.sterilized;
     });
     renderTableData(healthyPetArr);
     healthyBtn.textContent = "Show all pet";
