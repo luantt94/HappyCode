@@ -1,0 +1,1786 @@
+welcome aboard
+phrase
+expression used to welcome somebody to a team, company, or group
+Good morning, Alice, and welcome aboard. 
+To all the new members of our team, I want to say "Welcome aboard! We're glad you're here."
+
+issue
+verb
+to officially give something to someone
+You will be issued one pass that you can use to get into the lab and other restricted areas. 
+The state will issue you a driver's license after you've completed the test successfully.
+
+restricted
+adjective
+limited access
+You will be issued one pass that you can use to get into the lab and other restricted areas. 
+Sorry, this is a restricted area, so I can't let you enter.
+
+innovative
+adjective
+new, advanced, and creative
+Have you seen a demonstration yet of the innovative new laser technology we've been developing? 
+We developed an innovative solution to the problem.
+
+immensely
+adverb
+extremely
+We're all immensely proud of the work we do. 
+Olympic weight-lifters are immensely strong.
+
+demonstration
+noun
+the act of showing something to an audience by using it
+Speaking of which, have you seen a demonstration yet of the innovative new laser technology we've been developing? 
+At the convention, I saw a demonstration of new computer technology.
+
+R&D
+phrase
+abbreviation of research and development; often refers to the department that develops new technology or products for a company
+I'm Jacob Miller, the R&D Team Lead. 
+Investment in R&D is necessary if you want to be an industry leader. 
+
+lead
+noun
+the person in charge of a group or project; the leader
+I'm Jacob Miller, the R&D Team Lead. 
+Marcus is the lead on this project, so if you have any questions, please ask him.
+
+invite
+noun
+a short form of the word "invitation," often used to talk about electronic invitations
+I'll make sure you get an invite. 
+Did you send out the invites for tomorrow's party?
+
+likewise
+adverb
+in the same way, also; often used as an expression of agreement
+Likewise; it's a pleasure to meet you too.
+She works hard and encourages other people to do likewise.
+
+prior to
+phrase
+before
+Where did you work prior to coming here?
+The company employees knew about the change prior to the official announcement.
+
+transition
+noun
+a change from one thing to another
+The last project I managed was a transition to a new office communication system. 
+The transition from high school to college can be difficult for some students.
+
+resistance
+noun
+the act of refusing to accept something
+Well, there's always resistance to change, but the implementation was successful.
+There was strong resistance to the new rules. Many people did not like them.
+
+implementation
+noun
+the act of putting a plan or decision into action   
+Well, there's always resistance to change, but the implementation was successful.
+Now that we have a plan, the next step will be the implementation.
+
+focus
+noun
+main area of interest or experience; goal or topic of discussion
+My focus is network design.
+The focus of the meeting will be health care choices.
+
+specifically
+adverb
+in particular or in detail; exactly
+Specifically, I have been designing satellite-communication networks for the past three years.
+We talked about education. Specifically, we discussed university-science education.
+
+catch you later
+phrase
+an informal goodbye; see you later
+Yeah, catch you later!
+I have to head back to the office now, but I'll catch you later!
+
+up to speed
+phrase
+knowing all necessary information; correctly understanding a situation
+If last week's training sessions hadn't brought me up to speed, I'd feel really lost this week.
+It took me about a month to really get up to speed in my new job.
+
+work out
+phrasal verb
+to organize, plan, or arrange; to figure something out
+I'm working out my weekly schedule right now.
+It didn't think I would be able to attend the meeting yesterday, but I worked it out.
+
+switch over
+phrasal verb
+to change from one thing to another, usually a system or plan
+If we hadn't switched over last year, you'd be using a spreadsheet right now. 
+I hope everyone is ready to switch over to the new e-mail system.
+
+spreadsheet
+noun
+a document, often computer-based, with information arranged in rows
+If we hadn't switched over last year, you'd be using a spreadsheet right now. 
+This Excel spreadsheet shows the sales figures from last month.
+
+one-on-one
+noun
+a meeting between two people, often an employee and his or her manager
+So far, I have several one-on-one meetings with management.
+I have a one-on-one with my boss on the first Tuesday of every month.
+
+VTC
+noun
+the abbreviation for "video teleconference," also known as a videoconference; allows groups of people in multiple locations to see and hear each other
+I also have monthly VTC meetings with all the software developers.
+Instead of traveling to meet, we can use the VTC.
+
+packed
+adjective
+very crowded or full
+Your schedule already looks packed, but I was wondering if you might be able to fit one more thing in.
+Tuesday is packed. Can we meet on Wednesday instead?
+
+preliminary
+adjective
+happening before a main event or action; done in preparation for another event or action
+Are you interested in coming to the preliminary planning meeting this Friday?
+Before developing the new product, we did a preliminary survey of similar products on the market.
+
+pencil in
+phrasal verb
+to plan something, but not definitely
+Let me pencil it in, and if I can't make it, I'll let you know by tomorrow.
+I had a meeting penciled in for Thursday morning, but it didn't happen.
+
+launch party
+phrase
+a company event to celebrate and advertise the start of a new product or service
+Yes, we met at the launch party last week. 
+The launch party was a huge success.
+
+strategic planning
+phrase
+high-level work that involves long-term planning to support future goals
+A few of us are going to have lunch, and we'd like to get to know our new strategic planning expert. 
+Running a successful business involves good strategic planning.
+
+hit the ground running
+phrase
+to start quickly
+I've really had to hit the ground running.
+We relaxed on Sunday and hit the ground running on Monday morning.
+
+founding partner
+phrase
+a person who owned (and may still own) part of a company when it was created
+Expectations must be pretty high for someone who was the youngest founding partner at Brightlights, right?
+I am one of four founding partners in a new software company.
+
+IPO
+noun
+abbreviation for initial public offering; the first opportunity for the public to buy shares as a company moves from privately to publicly owned
+After the Brightlights IPO, things slowed down a little, and I decided it was time for a change. 
+The CPA Company is having its IPO next week. I think we should buy some shares.
+
+reschedule
+verb
+to change the day or time of an event
+And sadly, I have a lunch meeting today that I can't reschedule. 
+I need to reschedule our Thursday meeting. Would you mind meeting at three o'clock instead of two?
+
+rain check
+noun
+an offer or request to do an activity at a later time because it cannot be done now; also, a ticket given to people to use later, after an outdoor sports event is stopped by rain
+Can I take a rain check on lunch?
+Dinner on Saturday would be great, but I'm busy this weekend. Can I take a rain check for another day?
+
+up for it
+phrase
+interested in doing something 
+I thought I'd grab an early dinner. If you're up for it, you and anyone else from your team could join me.
+We can make plans over lunch if you're up for it. How does that sound?
+
+meet up
+phrasal verb
+to come together at an arranged time and place
+Let's meet up in the lobby at six and go to Sinbad's. 
+The client will arrive at ten o'clock, so I think you and I should meet up at nine.
+
+war story
+noun
+a description of a past experience that was challenging, difficult, or dangerous
+I'm really looking forward to hearing some of the war stories from your start-up days. 
+Working abroad was very challenging. Some day, I'll tell you a few of my war stories.
+
+start-up
+noun
+a newly created company
+I'm really looking forward to hearing some of the war stories from your start-up days. 
+I left my job at a large company to work at a small start-up because I enjoy a fast-paced and informal work environment.
+
+nonsense
+noun
+information or events that are without logic; stupidity
+I really don't have time to deal with this nonsense!
+What is this nonsense? Why is this guy wearing a gorilla costume?
+
+take off 
+verb
+to schedule time away from a place of employment (phrasal verb, transitive, separable)
+You should pay for the time I've taken off work just to come back here!
+Tana took off time from work to meet with a friend.
+
+work on
+phrasal verb
+to make an effort to improve a project or situation 
+We're working on training our staff.
+Artists often work on several paintings at the same time.
+
+purchase
+noun
+a product or service that someone gains in exchange for money (countable)
+You won't have this problem with future purchases.
+He carried his purchase in a yellow shopping bag.
+
+make up for
+phrasal verb
+to do something good to balance something negative that happened 
+It's not much, but I hope it makes up for your troubles.
+He tried to make up for his forgetfulness by bringing flowers.
+
+hopefully
+adverb
+in a way to a show positive thoughts or hopes
+Hopefully, we'll see you again soon.
+The fans looked on hopefully as the team approached the goal.
+
+package
+noun
+an item usually put in a box or large envelope and sent through the mail or delivery service
+Well, Mandy, you can help me find my package!
+Laurel received a package from her mother on her birthday.
+
+reference
+noun
+something that points to or is about something else
+OK, could you please tell me the six-character reference number in the top-left corner?
+The author made several references to a movie I had never seen. 
+
+note
+noun
+a short piece of written information
+I have a note that says this was the third and final attempt.
+Kevin created a note with several questions he had as he read the report.
+
+schedule
+verb
+to set a time and date for an event or activity
+I spoke to someone on Wednesday and scheduled the delivery for today. 
+Maggie scheduled her dentist appointment for three o'clock on Tuesday.
+
+confirmation 
+noun
+a notice that something is true or that it's set for a time and date
+It's a confirmation for a scheduled delivery on Friday. 
+Hannah sends a confirmation to her sales team after everyone agrees on a meeting time. 
+
+misunderstanding
+noun
+a problem or argument that happens when someone does not understand what someone else has communicated
+I'm not entirely sure what happened, but obviously there was a misunderstanding.
+Sorry for the misunderstanding. I thought you told me to come at eight, not seven.
+
+resolve
+verb
+to find a solution to a problem
+We guarantee we'll resolve the problem within twenty-four hours.
+The new company didn't have a good way to answer customers' questions, so it resolved the problem by opening a customer-service call center.
+
+guarantee
+verb
+to promise that something will happen
+When it does, we guarantee we'll resolve it within twenty-four hours. 
+The company guaranteed their product would work, or they would give you your money back. 
+
+misinform
+verb
+to give someone wrong information
+I'm sorry, but I believe you've been misinformed.
+The cashier accidentally misinformed the customer about company policies.
+
+act up
+phrasal verb
+to not work correctly
+And now my printer's acting up.
+The other day my cell phone acted up during an important phone call, and I couldn't hear anything.
+
+empathetic
+adjective
+heartfelt understanding of other people's feelings and situations
+Mandy listened to John's troubles and was empathetic; she'd had similar problems.
+A good doctor needs to be empathetic.
+
+jam
+verb
+to become blocked or stuck
+Every time I try to print something, the paper jams. 
+My schedule is all jammed up today.
+
+frustrating
+adjective
+the feeling of not being able to do what one wants to do
+I'm sure that's very frustrating, John.
+My boss doesn't listen to me, I have to repeat the same thing many times. It's so frustrating.
+
+paper feeder
+noun
+the part of the printer which sends the paper into the printer
+Hopefully, it's just a problem with the paper feeder's alignment.
+The paper feeder is in the front part of my printer, but in some printers it's in the back.
+
+alignment
+noun
+having two or more objects in the correct position or at the correct level in relation to each other
+Hopefully, it's just a problem with the paper feeder's alignment.
+I had a problem with the wheel alignment of my car; it wouldn't drive straight.
+
+flexible
+adjective
+a person who can change their proposed actions or ideas without difficulty
+You will have more than one boss during this project, so you need to be flexible.
+A flexible customer service representative can work well with many different clients. 
+
+patiently
+adverb
+doing something calmly and steadily
+Mandy listened patiently while John described his bad day.
+I waited patiently while my sister tried on twenty different shirts.
+
+take a look
+phrase
+to investigate or check something
+I'll have our technicians take a look.
+While we were waiting, I took a look at the brochures for their new products.
+
+optimum
+adjective
+the best possible
+After turning the system back on, it takes up to three hours to reach optimum temperature.
+The optimum number of people in a work group is five.
+
+uninterested
+adjective
+having no interest in something; bored
+He was kind of cold and uninterested, you know what I mean?
+I knew she was uninterested because she kept looking at her cell phone.
+
+run into
+phrasal verb
+to find something or someone by chance; to find something you didn't expect
+Since we've started shutting the system off at night to save energy, we've been running into a problem.
+I ran into a problem when I tried to buy a new battery for my computer: they don't make them anymore!
+
+shut off
+phrasal verb
+to turn off, usually something major like a utility
+Since we've started shutting the system off at night to save energy, we've been running into a problem.
+I always shut my lights off when I'm not home.
+
+incredibly
+adverb
+extremely 
+It's incredibly hot in the office until noon!
+He was incredibly lucky to win the lottery the first time he played. 
+
+indifferent
+adjective
+without concern; not interested
+The person I spoke to was completely indifferent to my issues.
+The restaurant manager was indifferent to my complaints about cold food, so I told her I was never coming back!
+
+unhelpful
+adjective
+unable or unwilling to assist
+The person I spoke to on the phone was very unhelpful.
+When I missed my flight to Chicago, the airline was completely unhelpful—they didn't offer me a hotel room or anything.
+
+cold
+adjective
+not interested in other people or not friendly to them
+He was kind of cold and uninterested, you know what I mean?
+My first babysitter never smiled or laughed: she seemed very cold. After a few months my parents found a new babysitter for me.
+
+figure out
+phrasal verb
+to solve a puzzle or problem; to find the reason for something; to understand another person's character
+I can't figure out how to cool it down quicker without leaving the system on all night.
+I know you're not happy with the design. Let's talk and figure out what the problem is.
+
+revision
+noun
+new text or software that contains corrections of, or improvements to, older text or software
+We're already working on a revision of the manual.
+Have you see the latest revision of the report? It's much better.
+
+inquire
+verb
+to ask for information
+I'll need to inquire a little further.
+My boss had to inquire about the meeting because he wasn't there.
+
+dissatisfied
+adjective
+not pleased about something or with someone
+I'm very dissatisfied with my camera.
+I am dissatisfied with my pay because it isn't enough to buy a new car.
+
+frustrating
+adjective
+annoying because it is difficult; not working the way you would like
+I realize this must be frustrating.
+It is just so frustrating when my colleague takes an extra-long lunch break and I have to do his work!
+
+advertisement
+noun
+a thing that is used to sell something
+The advertisement said it worked underwater.
+I just saw an advertisement for that new restaurant; the food looked delicious.
+
+correctly
+adverb
+in the right way
+If I understand you correctly, you mistakenly chose the wrong model.
+Correctly perform the yoga moves so you don't get hurt.
+
+associates
+noun
+people that work together
+Our associates will help you select one of our waterproof cameras. 
+Kyle was our best sales associate last month!
+
+model
+noun
+a certain version of something
+If you look on the bottom of your camera, you'll see a model number. 
+I used to have that phone, but I just traded it in for the newest model. 
+
+complain
+verb
+to say that you do not like something, and usually why
+She complained that it took over two weeks to receive the shoes she ordered from our catalogue. 
+His soup was very cold, so he complained to his server.
+
+offensive
+adjective
+in a rude way, causing hurt feelings
+Her next e-mail was very offensive and attacked me personally. 
+My friend told an offensive joke, and no one laughed.
+
+aggressive
+adjective
+come on strong; pushy; looking to argue or fight
+I was wondering if we could discuss an e-mail conversation I recently had with a very aggressive customer.
+Aggressive bosses scare their employees and don't get very much real respect.
+
+issue
+noun
+a problem or a question 
+Well, I tried to redirect the communication to the other issue.
+Sometimes an issue can be very hard to solve so that everyone is happy.
+
+redirect
+verb
+to change the focus or the direction of someone or something
+Well, I tried to redirect the communication to the other issue.
+The teacher was able to redirect the attention of the students back to the lesson.
+
+forward
+verb
+to send something one person received to another person, usually a letter or an e-mail
+I asked her if she could forward me the e-mail receipt she got after placing her order, and that clearly shows that she chose the wrong size. 
+She got fired for forwarding company e-mails to a competitor.
+
+diplomatic
+adjective
+very polite and kind when speaking or dealing with people, not offensive
+I was very diplomatic.
+It helps to be diplomatic when it seems no one can agree on a solution and people are getting angry.
+
+reassurance
+noun
+words or actions that make one feel less worried and better
+Thank you, Mr. Allen. I appreciate your reassurance that I handled the situation well!
+Jim was disappointed that he had to fire Maggie, and I tried to offer him some reassurance that she really wasn't doing her job.
+
+guarantee
+noun
+a promise that something will be done or will be good quality
+That's why we offer a money-back guarantee for the first thirty days after purchase.
+Our service includes a quality guarantee.
+
+warranty
+noun
+a document customers receive when they buy something, stating when and how the customer can ask for repairs or replacement.
+In addition, all our equipment has a two-year warranty period.
+You can extend your warranty to four years for just thirty dollars. 
+
+customer satisfaction
+phrase
+description of a customer's level of happiness with a product or service
+As you know, we believe that customer satisfaction is the most important part of our business. 
+Our customer satisfaction is very high: over sixty percent of customers use our services a second time.
+
+purchase
+verb
+to buy something
+That's why we offer a money-back guarantee for the first thirty days after purchase.
+We purchased some new software last week. 
+
+faulty
+adjective
+has a problem; doesn't work correctly
+Although we have quality controls, sometimes customers receive faulty products.
+My new computer had a faulty disk drive, so I took it back to the store.
+
+eligible
+adjective
+able to access or receive; available
+I'm happy to let you know that during the warranty period, you are eligible for repairs at no cost to you.
+All customers who spend over one hundred dollars are eligible to receive free delivery.
+
+object
+verb
+to express disagreement with an idea or dislike of something
+What if the customer objects, saying that they would like to return the equipment?
+I objected when they showed alcohol advertisements during children's TV programs.
+
+exchange
+verb
+to give a different item in place of an item that is returned
+That's the second-best solution: taking a substitution or exchange.
+I asked to exchange the microwave I bought last week for a bigger one.
+
+refund
+verb
+to give money back
+It's cheaper for the company than refunding the money.
+I refunded their money because the concert they had tickets for was canceled.
+
+return
+noun
+the item that the customer takes back to the store
+If you still aren't satisfied after that, we'll be happy to accept the return.
+If the customer has a return, you first need to check the receipt. 
+
+appealing
+adjective
+attractive; interesting
+Well then, make the service more appealing to the customer with this phrase.
+I think that light colors are appealing.
+
+convinced
+adjective
+absolutely sure of something
+But what if the customer isn't convinced?
+I'm not convinced that living in a big city is really what I want.
+
+inconvenience
+noun
+something that causes you some trouble or stops you from doing something efficiently
+Usually the best apology is a simple one; I'd say, “I'm sorry for the inconvenience.”
+A delayed flight is a common inconvenience.
+
+courier
+noun
+a person or delivery service that delivers directly person to person, usually very quickly and at a high cost
+It looks like there was a problem with the courier's truck.
+Many shipping companies offer courier services at a higher cost than regular shipping.
+
+make right
+phrase verb
+to correct something that was wrong; to make amends 
+Next is to make it right; that is, try to get them the product as soon as possible.
+I made things right with my friend after I lost the DVD he loaned me.
+
+make good on
+phrase verb
+to do what you say you are going to do, to keep a promise
+At the same time, you have to be able to make good on your promise.
+He made good on his offer and sold me everything at a 50 percent discount.
+
+top priority
+phrase
+number one on the list of important things to do
+I'd let them know that I'd make sure their order was given top priority for delivery. 
+Finishing the project on time is our top priority.
+
+picture
+verb
+to imagine or to see in one's mind
+How do you picture that playing out? 
+I never pictured Denise with children, but now she has four!
+
+play out
+phrasal verb
+to finish, to come to an end
+How do you picture that playing out?
+Our strategy played out well: our sales are up 8 percent.
+
+understanding
+noun
+what someone knows or understands; an agreement
+OK, Julie, you have a good understanding of the basics, but I do have a few notes…
+I'm glad we have an understanding about what to do next.
+
+the basics
+noun
+the skills, facts, concepts, or information that come first in learning
+OK, Julie, you have a good understanding of the basics, but I do have a few notes.
+I know the basics of good design, but maybe a review course would be a good idea.
+
+resolve
+verb
+to reach the end of a problem by coming to an agreement or decision
+The second step is to resolve that problem quickly. 
+I was happy we resolved the issues between Joseph and Layla, and without feelings getting hurt.
+
+talk through
+phrasal verb
+to explain an idea or process carefully, one step at a time
+Good. Can you talk me through how you might do that?
+The help desk talked me through the steps to install the new software.
+
+dead
+adjective 
+not working
+My Internet connection seems to be dead.
+If your cell phone won't turn on, the battery might be dead.
+
+set up
+phrasal verb
+to arrange something(s) in a particular way for a certain purpose
+It was my wife who set this system up, and she's not home right now.
+Our team needs to set up the break room for the party, so we should go find the extra chairs and tables.
+
+accessible
+adjective 
+easy to find or get
+If it's accessible, go to your modem.
+The documents aren't accessible right now; they're locked in Anthony's office.
+
+cable
+noun
+a wire used to send information
+A black one is connected to the cable, and a white one is connected to that.
+I need a new cable to connect my printer to my computer, because I lost the old one when I moved.
+
+plug in
+phrasal verb
+to connect something to electrical power or a piece of equipment
+Unplug the router, and don't plug it back in for ten seconds.
+I need to plug in my laptop before I can turn the power on.
+
+get rid of
+phrasal verb
+to end or remove something
+That should get rid of the problem.
+When the IT staff upgraded our software, we got rid of many of the problems we had before.
+
+go ahead
+phrase
+to continue with a plan or activity
+Go ahead and do that now.
+I'm going to be late, so go ahead and start the meeting without me.
+
+in that case
+phrase
+because of how something is
+In that case, enjoy the rest of your evening, sir.
+These hats are on sale for half the regular price? In that case, I'll buy two!
+
+Wi-Fi router
+noun
+a piece of equipment that allows a computer to access the Internet without using a wire
+Are you using a Wi-Fi router in your home?
+We don't have our Wi-Fi router set up yet, so you'll have to connect your laptop directly to the modem if you want to use the Internet.
+
+modem
+noun
+a piece of equipment that provides access to the Internet
+I also see that your modem is working.
+Our modem is broken, so we cannot use the Internet until we get a new one.
+
+refer
+verb
+to look at (something) for information
+I referred to the manual for the TV but couldn't find any answers. 
+Please refer to our Web site to learn more about our company's history and goals for the future.
+
+manual
+noun
+a document that gives information about how to do something
+I referred to the manual for the TV but couldn't find any answers. 
+The manual explained how to put the bicycle together.
+
+determined
+adjective
+wanting to do something so much that you believe nothing can stop you
+I'm determined to make this work, so I came here.
+Greg was determined to fix the software problem, even if he had to stay at the office all night to solve it.
+
+convert
+verb
+to change something into something else
+One is to use a cable to convert the signal from your laptop to your TV; we sell them here.
+We converted the empty office into a break room where the employees could eat lunch.
+
+signal
+noun
+information sent from one electronic machine to another
+One is to use a cable to convert the signal from your laptop to your TV; we sell them here.
+When you have a strong Internet signal, you'll have faster download speeds.
+
+image
+noun
+a picture; something seen
+Because of its age and types of connections, your TV can't display that type of image.
+We put professional, positive images on our Web site to encourage business people to buy our clothing.
+
+deliberate
+adjective
+on purpose; with thought and care
+It's almost as if companies make deliberate choices to change things so we will spend more money.
+Even though he knew it meant his colleagues would have extra work, Jim made a deliberate decision to leave work early for the day.
+
+transfer
+verb
+to move something, usually a call, from one contact to another
+I'll need to transfer you to our service department.
+When I finally complained, I was transferred to the supervisor who was able to help me.
+
+service department
+noun
+part of a company that deals with customer issues with sold products
+I'll need to transfer you to our service department.
+While working in the service department, I received a lot of phone calls from very upset customers.
+
+sales department
+noun
+part of a company that is responsible for selling the company's products or services
+You reached the sales department.
+The sales department is busy around Christmas time when people are making a lot of purchases.
+
+connect
+verb
+to place two people in contact, usually for the purpose of solving  a problem
+I'll connect you to Linda in service.
+I was happy to connect with Susie because she was able to help me reinstall my program.
+
+in service
+phrase
+shortened way of saying "in the service department"
+I'll connect you to Linda in service.
+While working in service, you need to be very clear about the company's policy.
+
+instruction manual
+noun
+booklet that comes with most products which tells how to use the product
+Do you have your instruction manual handy?
+The instruction manual was missing so I didn't know how to program my television.
+
+handy
+adjective
+at hand; nearby; useful
+Do you have your instruction manual handy?
+It was a good thing my drink was handy because those chips were spicy!
+
+pulled up
+phrase
+brought into view, usually on a computer or other electronic device
+With this information, Linda will have had it pulled up by the time she answers the call.
+My computer won't let me pull up that file!
+
+from sales
+phrase
+shorter way of saying "from the sales department"; usually used to introduce someone from the sales department
+Hi Megan, it's Steven from sales.
+If you want to place an order, you need to contact someone from sales.
+
+resolve
+verb
+to find a solution to a problem or issue
+It's a technical issue that I can't resolve on my own.
+When they agreed to repair the display for free, that resolved my issue.
+
+contact details
+phrase
+information used to contact someone, such as name, phone number, and e-mail address
+Can you give me her contact details?
+Only give your contact details to someone you trust.
+
+expect
+verb
+to believe that something is going to come or to happen
+When can I tell her to expect your call?
+You can expect the package to arrive any day now.
+
+customer complaint form
+noun
+form that requests the details of a customer's problem or issue
+You'll have to fill out a customer complaint form, so I have all the details.
+Filling out customer complaint forms can be a long process, but it is helpful.
+
+hold
+verb
+to continue to stay on the phone while the person to whom you are speaking does something else
+Hi Louise, thank you for holding.
+Will you please hold a minute? I have another call coming in.
+
+coordinated effort
+phrase
+when several people are working together on a task or project
+I was just speaking with our technical department because it  looks like we need a coordinated effort to bring you back online.
+Getting the company's Website up and running took a coordinated effort from all departments.
+
+technician
+noun
+someone who has skills in a technical area, such as electronics or computers
+Megan is the technician who'll be assisting you.
+Our computer technician always seems to know how to fix the problem.
+
+assist
+verb
+to help someone 
+Megan is the technician who'll be assisting you.
+I think I should assist you with those heavy boxes.
+
+effectively
+adverb
+capably; does what is desired
+I'll make sure Megan has all the details so she can help you more effectively.
+Some brands of toothpaste whiten teeth more effectively than others.
+
+invalid
+adjective
+something that is no longer working; wrong
+… but every time I enter the PIN shown in the card, it tells me it’s invalid!
+The border agent says my passport is invalid, so I can't enter the country.
+
+reimburse
+verb
+to pay someone back money spent on another's behalf
+I’m supposed to be making all my business-related international calls with this card, which I’ll get reimbursed for.
+It was a great sale so I picked up three pairs of pants for my mom; she'll reimburse me for them.
+
+follow up
+phrasal verb
+to get in contact with someone for the purpose of making sure something was done or checking the progress of something
+I’ll follow up by e-mail.
+I told my client I would follow up with him to make sure his products arrived on time and in good condition.
+
+overseas
+adjective
+countries that are foreign or far away; abroad
+I recently spoke to a customer who bought one of our calling cards to use on her overseas business travels.
+Whenever I am overseas, I always make sure I have all my documents in one secure place.
+
+resolve
+verb
+to use a solution to end a problem or issue
+Can you please help me resolve this issue?
+Please update your computer software to resolve the problems you are currently experiencing.
+
+summarize
+verb
+to shorten something longer by giving only the important details 
+To summarize, she claims the personal identification number is invalid.
+In order to summarize the customer interactions, I read through numerous e-mails to get just the facts.
+
+claim
+verb
+to assert that something is true
+To summarize, she claims the personal-identification number is invalid.
+Ivana claimed that the shoes never fit her in the first place.
+
+resolution
+noun
+the solving and ending of a problem
+Please let me know if this is an acceptable resolution to the problem.
+After the printer problem has been fixed, please describe the resolution to the issue on this form.
+
+inconvenience
+noun
+a problem; something that is not practical or useful
+I apologize for any inconvenience this has caused.
+It is a terrible inconvenience when banks close before 5 p.m.!
+
+highlight
+verb
+to bring attention to something
+Highlight those calls, and simply scan or fax us the bill when it comes, and we will send you a check for that amount.
+Lynette sometimes highlights the important parts of an e-mail so she can quickly find the information she needs.
+
+paraphrase
+verb
+to put what someone else said or wrote into your own words without changing the meaning
+Pauline paraphrased the problem the customer described to make the issue more clear when she explained it to her supervisor.
+Logan paraphrased the software instructions for us as he explained how to use it so that we could understand easily.
+
+initially
+adverb
+a connecting word that shows something happened in the beginning; the very first thing
+Initially, you had mentioned that your video game controller wasn't working properly.
+My job was filing papers, initially, but now I am helping in other ways.
+
+game controller
+noun
+the equipment used to control the characters or objects in a video game
+Initially, you had mentioned that your video game controller wasn't working properly.
+Some game controllers are easier to use than others.
+
+troubleshooting
+adjective
+a process or type of guide to figure out what causes the problem or issue in order to provide fixes
+So, I sent you a troubleshooting guide.
+Looking in the troubleshooting section of the manual is helpful.
+
+in the end
+phrase
+finally, after all is done
+In the end, I just gave up.
+I was promoted to supervisor of my department in the end.
+
+console
+noun
+the machine that runs video games; short for "video game console"
+Well, first, make sure the console is plugged in. 
+Our office bought a console for the employees to use on our break.
+
+follow up
+phrasal verb
+to get in contact with someone to make sure everything is OK or if something else is needed
+I'm calling you to follow up on our e-mail conversation.
+The company followed up with me to make sure I received the replacement part for my laptop.
+
+sync
+adjective
+working together in harmony, from the word "synchronize"
+Next, take the controller, and press the sync button.
+The sync function on the controller allows the controller and the game to work together.
+
+handy
+adjective
+literally near your hand; within your reach or easily gotten
+Do you have your controller handy?
+It's good to have your cell phone handy in emergencies.
+
+be passed around
+phrase
+to be transferred to different people without the issue being resolved; usually a negative experience
+I've been passed around from person to person and no one has been able to tell me when my Internet will be fixed!
+Customers who feel passed around are usually very frustrated.
+
+input
+verb
+to enter data into your computer or other device
+I'll input it as we speak.
+Georgina spent all last week inputting data for the next event.
+
+drop the ball
+phrase
+to not do something you were supposed to do or you said you would do
+I won't drop the ball here.
+Vivianne dropped the ball when she wasn't prepared for her part of our team presentation to our client.
+
+place
+verb
+to put something somewhere
+I promise this phone call will be placed in your file.
+Jurgen was certain he had placed the receipts in his folder.
+
+take a look
+phrase
+to inspect or look through something, usually to see if there is a problem
+I was told someone would come by last Monday morning to take a look at my connection.
+Sofie's supervisor said he would take a look at her report early next week.
+
+same story
+phrase
+an event that repeats itself, usually in a negative way
+Then they said around Thursday; same story!
+It's always the same story with Finn: he never shows up for work on time.
+
+be in touch with
+phrase
+to follow up with someone or to contact someone
+No one has been in touch with me since, and now this treatment?!
+Bruno's brother is in touch with his family again.
+
+see to it
+phrase
+to assure that something is done
+I will personally see to it that this is taken care of.
+Carmella's mechanic sees to it that her car is in perfect condition.
+
+service
+verb
+to fix or repair an item
+I'll get someone to service your Internet connection this afternoon and I'll follow up with you by 4 p.m. to make sure it happened.
+Luigi was asked to service a client's dishwasher and it took him three hours to fix it!
+
+interaction
+noun
+an action or dealing between two or more people
+Uhhh, yes, I remember that customer service interaction.
+I work in the front office, so I have a lot of interaction with customers.
+
+per your request
+phrase
+as you have asked; "your" can be replaced with other pronouns such as my, his, her, or our.
+I am writing this report per your request regarding a recent customer service interaction I had with a customer.
+Per my request, Veneet sent the two items packaged in bubble wrap and they arrived in perfect condition. 
+
+fraud
+noun
+using lies and other false pretenses to take something illegally
+I informed her that her credit card was being investigated for fraud.
+Fraud is a very serious crime that is committed more often than you would think.
+
+deviate
+verb
+to do something that is not within the normal routine; to do something differently than expected
+It appears her credit card was being used in several different cities and it deviated from her regular patterned use.
+Greg deviated too often from the office dress code so he was fired.
+
+pattern
+adjective
+a particular way that something is often done or repeated
+It appears her credit card was being used in several different cities and it deviated from her regular pattern of use.
+Most people shop at the same places and buy the same kinds of items. Credit card companies watch those patterns.
+
+notify
+verb
+to give notice to someone; to tell someone something
+She was upset that we hadn't notified her.
+We will want to notify our customers that the Web site will be unavailable from Friday afternoon to Sunday evening.
+
+to be down
+verb
+to be not working or to be unavailable, usually something technology related, such as a computer or a Web site
+I told her that our computer system had been down for two days and that is why she wasn't notified.
+Pierre was frustrated when his favorite Web site was down.
+
+notification
+noun
+message that tells something of importance, such as an upcoming or completed event
+She accepted my apology and reason for the lack of notification.
+Francine received notification that her services were no longer required. She was fired.
+
+amenable
+adjective
+agreeable; able to see or accept another's suggestions or point of view
+She was amenable to the idea of being sent a new credit card.
+Marney found her colleagues amenable to her suggestions for a new Friday lunch menu.
+
+ongoing
+adjective
+something that is continuing, that hasn't finished
+I assured her of the ongoing fraud investigation and that she would not be held accountable for any further charges to her account.
+Our meeting left us with some ongoing concerns.
+
+be held accountable
+verb
+to be responsible for the negative consequences of an action
+I assured her of the ongoing fraud investigation and that she would not be held accountable for any further charges to her account.
+Darren was held accountable for the aggressive words he used with the rude customer.
+
+businessman
+noun
+a man who has a job in selling and buying things
+As a businessman, Bassel frequently travels around Europe to build relationships with other technology companies.
+Nick's father was businessman and was often busy talking with other colleagues about the company's financial situation.
+
+to communicate
+verb
+to tell your ideas or explain information by talking, writing, or using body language
+The courses make it possible for the most recent immigrants to communicate more clearly on the telephone.
+The teacher always communicated her ideas in a way that the students could understand.
+
+conversation
+noun
+If you are having a conversation, you are talking with another person.
+Are you having a conversation about your future job?
+Conversations became easier for Holly when she spoke with English speakers every day.
+
+coworker
+noun
+a colleague
+My coworkers helped me with the document so I could finish it faster.
+Jennifer and her coworker Pam are nurses, but they are both studying to be doctors.
+
+effective
+working very well
+“Effective communication is very important if you want to do well in interviews,” said the man.
+According to my teacher, it is most effective if you study during the day, not just at night, because you might be too tired to pay attention.
+
+engineer
+a person who has a job building and designing things
+“I'm an engineer,” he said.
+“There are many different types of engineers,” said Kayleigh, “including engineers that deal with the environment and engineers that deal with parts of machines.”
+
+to improve
+verb
+to make something better
+Your English has improved so much.
+If you dance every day, you will improve quickly.
+
+intensive
+adjective
+covering a lot in a short period of time
+The friends decided to take an intensive Spanish class.
+Do you think that course was intensive?
+
+internship
+a job that is for gaining experience and knowledge; not paid or low paid work that has to do with a person's future career
+His dream internship was at a big law firm in New York City.
+“Internships can help me get experience so I can be better prepared for a job,” said Winnie.
+
+language
+noun
+the words or signs that people use to communicate with each other
+I heard you have better prospects and you can get more stimulating jobs when you speak a foreign language.
+I speak Italian and English; what languages do you speak?
+
+to learn
+verb
+to gain more information about something or to gain skill in doing something
+Tara thinks that talking with people is the best way to learn English.
+In their first class, the students learned how to take tests and notes.
+
+to practice
+verb
+to try to do something so you can be better at it
+The students practiced reading English until they could read without any help.
+Can I help you practice your presentation?
+
+productivity
+speed at which work is finished
+Some experts say that getting more sleep can help increase workers' productivity.
+The man learned quickly and soon he was helping the company increase their productivity.
+
+research
+the experience and results of collecting, studying, and understanding information; the facts and details that have been studied about something
+I'm doing history research.
+Edna's research showed that sugar has bad effects on teeth.
+
+skill
+noun
+something that someone does well; an ability that someone has learned
+The second part of the exam tests different skills.
+What skills do I need for this job?
+
+to study
+verb
+to spend time learning about something to understand it better
+I think I'll enjoy studying in the United States.
+Ella studied the language until 1:00 a.m. each night.
+
+to teach
+verb
+to explain to someone how something is done or help them to understand something better
+What class do you teach?
+When I was younger, I taught college students about life in America.
+
+training course
+a lesson or a series of lessons that teach you something
+I think this training course is going to help my career.
+Before you can work in this job, you need to take some training courses.
+
+area
+
+by bus
+
+by plane
+
+by train
+
+to familiarize
+v.
+
+to find one's way around
+
+to fit in
+v.
+
+friendly
+adj.
+
+helpful
+adj.
+
+immigrant
+
+neighbor
+
+newcomer
+
+relationship
+
+subway
+
+superficial
+adj.
+
+typical
+
+unfriendly
+
+to welcome
+v.
+
+to collect
+v.
+
+deadline
+
+delivery
+
+homeowner
+
+to invest
+v.
+
+landlady
+
+lawsuit
+
+lawyer
+
+legal
+adj.
+
+mailman
+
+package
+
+post office
+
+postcard
+
+to receive
+v.
+
+registered
+adj.
+
+rent
+
+to sign
+v.
+
+stamp
+
+to arrange
+v.
+
+catering
+
+conference
+
+customer
+
+to discuss
+v.
+
+to greet
+v.
+
+guest
+
+hostess
+
+laptop
+
+leading
+adj. - determiner
+
+lobby
+
+meeting
+
+to organize
+v.
+
+planning
+
+printer
+
+to require
+v.
+
+to reserve
+v.
+
+team
+
+beneficiary
+
+benefit
+
+burglary
+
+checking account
+
+coverage
+
+credit card
+
+damage
+
+guarantee
+
+insurance agent
+
+to insure
+v.
+
+liability
+
+life insurance
+
+loan
+
+multiple-risk
+adj.
+
+pension-savings
+
+policy
+
+premium
+
+to refund
+v.
+
+savings account
+
+valuables
+
+businessman
+noun
+a man who has a job in selling and buying things
+As a businessman, Bassel frequently travels around Europe to build relationships with other technology companies.
+Nick's father was businessman and was often busy talking with other colleagues about the company's financial situation.
+
+to communicate
+verb
+to tell your ideas or explain information by talking, writing, or using body language
+The courses make it possible for the most recent immigrants to communicate more clearly on the telephone.
+The teacher always communicated her ideas in a way that the students could understand.
+
+conversation
+noun
+If you are having a conversation, you are talking with another person.
+Are you having a conversation about your future job?
+Conversations became easier for Holly when she spoke with English speakers every day.
+
+coworker
+noun
+a colleague
+My coworkers helped me with the document so I could finish it faster.
+Jennifer and her coworker Pam are nurses, but they are both studying to be doctors.
+
+effective
+working very well
+“Effective communication is very important if you want to do well in interviews,” said the man.
+According to my teacher, it is most effective if you study during the day, not just at night, because you might be too tired to pay attention.
+
+engineer
+a person who has a job building and designing things
+“I'm an engineer,” he said.
+“There are many different types of engineers,” said Kayleigh, “including engineers that deal with the environment and engineers that deal with parts of machines.”
+
+to improve
+verb
+to make something better
+Your English has improved so much.
+If you dance every day, you will improve quickly.
+
+intensive
+adjective
+covering a lot in a short period of time
+The friends decided to take an intensive Spanish class.
+Do you think that course was intensive?
+
+internship
+a job that is for gaining experience and knowledge; not paid or low paid work that has to do with a person's future career
+His dream internship was at a big law firm in New York City.
+“Internships can help me get experience so I can be better prepared for a job,” said Winnie.
+
+language
+noun
+the words or signs that people use to communicate with each other
+I heard you have better prospects and you can get more stimulating jobs when you speak a foreign language.
+I speak Italian and English; what languages do you speak?
+
+to learn
+verb
+to gain more information about something or to gain skill in doing something
+Tara thinks that talking with people is the best way to learn English.
+In their first class, the students learned how to take tests and notes.
+
+to practice
+verb
+to try to do something so you can be better at it
+The students practiced reading English until they could read without any help.
+Can I help you practice your presentation?
+
+productivity
+speed at which work is finished
+Some experts say that getting more sleep can help increase workers' productivity.
+The man learned quickly and soon he was helping the company increase their productivity.
+
+research
+the experience and results of collecting, studying, and understanding information; the facts and details that have been studied about something
+I'm doing history research.
+Edna's research showed that sugar has bad effects on teeth.
+
+skill
+noun
+something that someone does well; an ability that someone has learned
+The second part of the exam tests different skills.
+What skills do I need for this job?
+
+to study
+verb
+to spend time learning about something to understand it better
+I think I'll enjoy studying in the United States.
+Ella studied the language until 1:00 a.m. each night.
+
+to teach
+verb
+to explain to someone how something is done or help them to understand something better
+What class do you teach?
+When I was younger, I taught college students about life in America.
+
+training course
+a lesson or a series of lessons that teach you something
+I think this training course is going to help my career.
+Before you can work in this job, you need to take some training courses.
+
+area
+
+by bus
+
+by plane
+
+by train
+
+to familiarize
+v.
+
+to find one's way around
+
+to fit in
+v.
+
+friendly
+adj.
+
+helpful
+adj.
+
+immigrant
+
+neighbor
+
+newcomer
+
+relationship
+
+subway
+
+superficial
+adj.
+
+typical
+
+unfriendly
+
+to welcome
+v.
+
+to collect
+v.
+
+deadline
+
+delivery
+
+homeowner
+
+to invest
+v.
+
+landlady
+
+lawsuit
+
+lawyer
+
+legal
+adj.
+
+mailman
+
+package
+
+post office
+
+postcard
+
+to receive
+v.
+
+registered
+adj.
+
+rent
+
+to sign
+v.
+
+stamp
+
+to arrange
+v.
+
+catering
+
+conference
+
+customer
+
+to discuss
+v.
+
+to greet
+v.
+
+guest
+
+hostess
+
+laptop
+
+leading
+adj. - determiner
+
+lobby
+
+meeting
+
+to organize
+v.
+
+planning
+
+printer
+
+to require
+v.
+
+to reserve
+v.
+
+team
+
+beneficiary
+
+benefit
+
+burglary
+
+checking account
+
+coverage
+
+credit card
+
+damage
+
+guarantee
+
+insurance agent
+
+to insure
+v.
+
+liability
+
+life insurance
+
+loan
+
+multiple-risk
+adj.
+
+pension-savings
+
+policy
+
+premium
+
+to refund
+v.
+
+savings account
+
+valuables
+
+businessman
+noun
+a man who has a job in selling and buying things
+As a businessman, Bassel frequently travels around Europe to build relationships with other technology companies.
+Nick's father was businessman and was often busy talking with other colleagues about the company's financial situation.
+
+to communicate
+verb
+to tell your ideas or explain information by talking, writing, or using body language
+The courses make it possible for the most recent immigrants to communicate more clearly on the telephone.
+The teacher always communicated her ideas in a way that the students could understand.
+
+conversation
+noun
+If you are having a conversation, you are talking with another person.
+Are you having a conversation about your future job?
+Conversations became easier for Holly when she spoke with English speakers every day.
+
+coworker
+noun
+a colleague
+My coworkers helped me with the document so I could finish it faster.
+Jennifer and her coworker Pam are nurses, but they are both studying to be doctors.
+
+effective
+working very well
+“Effective communication is very important if you want to do well in interviews,” said the man.
+According to my teacher, it is most effective if you study during the day, not just at night, because you might be too tired to pay attention.
+
+engineer
+a person who has a job building and designing things
+“I'm an engineer,” he said.
+“There are many different types of engineers,” said Kayleigh, “including engineers that deal with the environment and engineers that deal with parts of machines.”
+
+to improve
+verb
+to make something better
+Your English has improved so much.
+If you dance every day, you will improve quickly.
+
+intensive
+adjective
+covering a lot in a short period of time
+The friends decided to take an intensive Spanish class.
+Do you think that course was intensive?
+
+internship
+a job that is for gaining experience and knowledge; not paid or low paid work that has to do with a person's future career
+His dream internship was at a big law firm in New York City.
+“Internships can help me get experience so I can be better prepared for a job,” said Winnie.
+
+language
+noun
+the words or signs that people use to communicate with each other
+I heard you have better prospects and you can get more stimulating jobs when you speak a foreign language.
+I speak Italian and English; what languages do you speak?
+
+to learn
+verb
+to gain more information about something or to gain skill in doing something
+Tara thinks that talking with people is the best way to learn English.
+In their first class, the students learned how to take tests and notes.
+
+to practice
+verb
+to try to do something so you can be better at it
+The students practiced reading English until they could read without any help.
+Can I help you practice your presentation?
+
+productivity
+speed at which work is finished
+Some experts say that getting more sleep can help increase workers' productivity.
+The man learned quickly and soon he was helping the company increase their productivity.
+
+research
+the experience and results of collecting, studying, and understanding information; the facts and details that have been studied about something
+I'm doing history research.
+Edna's research showed that sugar has bad effects on teeth.
+
+skill
+noun
+something that someone does well; an ability that someone has learned
+The second part of the exam tests different skills.
+What skills do I need for this job?
+
+to study
+verb
+to spend time learning about something to understand it better
+I think I'll enjoy studying in the United States.
+Ella studied the language until 1:00 a.m. each night.
+
+to teach
+verb
+to explain to someone how something is done or help them to understand something better
+What class do you teach?
+When I was younger, I taught college students about life in America.
+
+training course
+a lesson or a series of lessons that teach you something
+I think this training course is going to help my career.
+Before you can work in this job, you need to take some training courses.
+
+area
+
+by bus
+
+by plane
+
+by train
+
+to familiarize
+v.
+
+to find one's way around
+
+to fit in
+v.
+
+friendly
+adj.
+
+helpful
+adj.
+
+immigrant
+
+neighbor
+
+newcomer
+
+relationship
+
+subway
+
+superficial
+adj.
+
+typical
+
+unfriendly
+
+to welcome
+v.
+

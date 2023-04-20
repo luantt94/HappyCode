@@ -1,0 +1,590 @@
+to collect
+v.
+
+deadline
+
+delivery
+
+homeowner
+
+to invest
+v.
+
+landlady
+
+lawsuit
+
+lawyer
+
+legal
+adj.
+
+mailman
+
+package
+
+post office
+
+postcard
+
+to receive
+v.
+
+registered
+adj.
+
+rent
+
+to sign
+v.
+
+stamp
+
+to arrange
+v.
+
+catering
+
+conference
+
+customer
+
+to discuss
+v.
+
+to greet
+v.
+
+guest
+
+hostess
+
+laptop
+
+leading
+adj. - determiner
+
+lobby
+
+meeting
+
+to organize
+v.
+
+planning
+
+printer
+
+to require
+v.
+
+to reserve
+v.
+
+team
+
+beneficiary
+
+benefit
+
+burglary
+
+checking account
+
+coverage
+
+credit card
+
+damage
+
+guarantee
+
+insurance agent
+
+to insure
+v.
+
+liability
+
+life insurance
+
+loan
+
+multiple-risk
+adj.
+
+pension-savings
+
+policy
+
+premium
+
+to refund
+v.
+
+savings account
+
+valuables
+
+coupon
+noun
+a piece of paper that allows you to receive a discount when you buy something
+We agreed to send out coupons offering a free small coffee with the purchase of one bakery item.
+I just got a coupon for 30 percent off any pair of shoes. I can't wait to use it!
+
+purchase
+noun
+something that you buy
+We agreed to send out coupons offering a free small coffee with the purchase of one bakery item.
+It's difficult to remember all the purchases I make by credit card, so I write them down.
+
+standard
+adjective
+the usual or typical way of doing things
+Should we use e-mail or standard mail?
+I know it takes longer, but this is an important case, so we need to use standard procedure.
+
+postage
+noun
+the stamp or document needed to send something by mail
+The cost of postage and printing is incredible.
+Depending on the size and weight of the package, your costs for postage will vary.
+
+printing
+noun
+the activity of producing something on paper
+The cost of postage and printing is incredible.
+My sister has a job at a shop that offers printing; she loads the paper into the machines and checks the results for quality.
+
+justify
+verb
+to give a good reason for doing something; to show that a choice is a good one
+I don't think we can justify such high expenses.
+I justified buying a truck, but I don't really need it. Next time, I'll buy a smaller car instead.
+
+expense
+noun
+the money you spend to buy something or to do something
+I don't think we can justify such high expenses.
+Owning a car is a big expense.
+
+mailing list
+noun
+a list of people and their contact information used by companies to send out advertisements
+We'll only be able to reach people who are already on our mailing list.
+I often ask companies to remove me from their mailing list when I'm not interested in their products.
+
+potential
+adjective
+something that will be possible in the future
+We won't be advertising to any new potential customers.
+Every month I visit at least ten potential customers to talk about our services.
+
+promotion
+noun
+a special price or discount used to advertise a particular product or service
+This promotion was designed to introduce our new line of bakery items.
+The car dealer has a new promotion: no interest paid for the first six months.
+
+worth it
+phrase
+good despite being difficult or expensive
+The extra expense will be worth it in the long run.
+Being a teacher can be challenging, but it's worth it to see my students succeed.
+
+budget
+noun
+how a person or business will choose to spend or save money
+Just make sure you get the budget approved by Peterson.
+I'm trying to make a budget for our family, so I'm looking at all of our bills.
+
+in the long run
+phrase
+over a very long period of time and into the future
+The extra expense will be worth it in the long run.
+In the long run, going to college will be the best choice for me.
+
+feasible
+adjective
+reasonable and possible to do with the resources or time available
+I've thought about it, but is it feasible?
+I don't think visiting five cities in eight days is really feasible.
+
+confidential
+adjective
+needing to be secret; private
+We work in Human Resources; a lot of our communication is confidential.
+I can't tell you about my patients. As their doctor, I must keep what they tell me confidential.
+
+privacy
+noun
+the ability to keep parts of your life out of public view or knowledge
+How can we protect people's privacy?
+I don't post a lot of photos on the Internet because I'm worried about my privacy.
+
+secure server 
+noun
+a piece of computer hardware that stores information in such a way that it is not easily accessed without the correct software and permissions
+They set up a Web site on a secure server.
+Their company's financial information is on a secure server. I can't open it.
+
+log in
+phrasal verb
+to supply information to a computer so that you can do or see something such as e-mail or bank account information on it.
+I logged in so that I could work on my project, and then suddenly the computer turned off.
+When you log in to your account, you'll be able to see the documents I shared with everyone.
+
+pay stub
+noun
+received when you're paid, a message that states how much you were paid and how much you were taxed
+She logs in to her account, and then she can view her documents: pay stubs, 401(k), everything.
+My pay stub shows my salary and how much I receive after taxes.
+
+401(k)
+noun
+a program where an employer puts money that an employee earns into an account to save it for when the employee has retired
+She logs in to her account, and then she can view her documents: pay stubs, 401(k), everything.
+It's really important to have a job with a 401(k) so I can save for the future.
+
+encrypt
+verb
+to change data into something not readable by anyone but those who have the correct software to read it
+And, of course, on our end, we'll have to encrypt the data.
+Our program at work encrypted files that we sent to our partners in other countries.
+
+set up
+phrasal verb
+to create something by putting parts together
+We can set it up so that the password has to be at least ten characters long.
+He set up the pieces so he could play the game with his children.
+
+reminder
+noun
+something that helps a person to remember a date or time
+She's writing a reminder for an important appointment.
+What if we send them a reminder in an e-mail at the end of each month?
+
+get back to
+phrasal verb
+to reply to or answer someone, typically after having done something else
+Can you check the costs and get back to me?
+My boss got back to me this morning and said the meeting is tomorrow.
+
+e-mail client
+noun
+a computer program that sends, receives, and manages a user's e-mail
+This new e-mail client is so weird. It took me forever to figure out where to click to attach a document.
+I've never installed an e-mail client on my home computer. I just use a Web-based one.
+
+recipient
+noun
+a person who gets something from another person; the person that your e-mail is sent to
+I can only see the “to” option for recipients.
+I always check my recipients before I send an e-mail. I don't want any embarrassing situations.
+
+cc
+noun
+the space in an e-mail to add another recipient who is not the main recipient so that he or she can also follow the conversation
+If I want to use cc or bcc, what should I do?
+I often use cc on e-mails to keep my boss informed so that she knows what I'm working on.
+
+bcc
+noun
+the space in an e-mail to add another recipient who is not the main recipient so that he or she can also follow the conversation, but that person is hidden from the main recipient
+If I want to use cc or bcc, what should I do?
+And sometimes I use bcc to copy the boss without the other person on the thread knowing.
+
+icon
+noun
+a small picture or symbol on the computer that opens a program
+Oh, yeah, look there—see that icon? It isn't terribly clear, but it's supposed to be a picture of three people.
+Most modern software uses icons instead of text commands to open programs.
+
+thread
+noun
+a series of e-mails that are in reply to each other
+And sometimes I use it to copy the boss without the other person on the thread knowing.
+My e-mail client gives each e-mail in the thread a different color, so it's easier to keep track.
+
+sneaky
+adjective
+in a hidden way; avoiding notice by being dishonest
+Isn't that kind of sneaky? I mean, is that fair to the other person?
+I had a colleague who was really sneaky and always lying about me, but she was so good at it that I could never prove it was her.
+
+uncooperative
+adjective
+not wanting to help; not interested in working together
+I know what you mean, but I only do it if the other person is being uncooperative or dishonest.
+I tried to discuss it with Jill, but she was completely uncooperative, so I had to tell her manager.
+
+put up with
+phrasal verb
+to accept a bad or annoying situation, even though you don't want to
+We might still be putting up with constantly delayed reimbursements.
+I put up with terrible, noisy roommates for a year until I finally moved to a new apartment.
+
+reimbursement
+noun
+money that someone gives to you to pay you back for money you spent
+We might still be putting up with constantly delayed reimbursements.
+If I drive to another city for work, my company will give me a reimbursement for the cost of gasoline.
+
+respond
+verb
+to answer someone who has spoken or written to you
+I got an e-mail from them asking why I hadn't responded to earlier e-mails.
+The salesperson is responding to the customer's question.
+
+contractor
+noun
+a person who does a specific service under a contract; this person is independent and not an employee of the company
+It's probably from Marissa Johnson, you know, our contractor for IT.
+Hiring contractors might save money, but it doesn't necessarily save time.
+
+ironically
+adverb
+happening in a way that is the opposite of what you would expect
+Ironically, she writes the worst e-mails.
+A man who made a fortune selling paperback novels has ironically become a strong supporter of free digital resources.
+
+subject line
+noun
+the part of the e-mail where the sender writes a short title describing the content
+Ironically, she writes the worst e-mails—you know, without a subject line, or with something like “great new price.”
+I always try to write a subject line that is both specific and short.
+
+spam
+noun
+e-mail that is sent without you asking for it, usually advertisements
+I hate getting useless spam in my in-box.
+Even since I booked a cruise online, I get endless spam about Caribbean vacations.
+
+genius
+noun
+someone who is much smarter than average
+She's a genius with software problems.
+Look at how amazing this is. The people who built this were geniuses.
+
+fussy
+adjective
+liking only a few things or wanting things done in a particular way
+You really are fussy, aren't you?
+My sister is really fussy when it comes to her hair—she won't leave the house unless it looks perfect.
+
+reply 
+noun
+the icon or button you click to answer an e-mail, responding to the original writer
+Like Joe, he keeps hitting the “reply all” instead of “reply.”
+Sometimes the button for "reply" has an arrow on it.
+
+reply all
+noun
+the icon or button you click to answer an e-mail, responding to the original writer and all the other recipients
+Like Joe, he keeps hitting the “reply all” instead of “reply.”
+I almost never use "reply all." One exception is when everyone needs to agree on a date and time. 
+
+tease
+verb
+to say something not very kind to another person in order to make a joke or to make the person feel bad
+OK, OK, I was just teasing. I don't mind that you're fussy.
+Barbara thought teasing me about my curly hair was funny, but I secretly hated it.
+
+contact
+noun
+a person in a list of people you know, along with personal information such as addresses, telephone numbers, and e-mail addresses
+I suggest you add her to your contacts.
+I have all of my colleagues and clients in my contacts, just to be sure.
+
+in-box
+noun
+the part of your e-mail where you view all the messages you've received; usually the first window you see when opening your e-mail
+That way you can be sure you get her e-mails in your in-box.
+I need to set up a program so that fewer e-mails go in my in-box and more go into the spam folder.
+
+signature block
+noun
+several lines of text found at the bottom of a letter or e-mail that typically include your name, job title, and the name of your company
+Starting today, it's company policy to include a signature block on all external e-mail.
+A typical signature block is seen at the end of an e-mail or letter. 
+
+format
+noun
+in a certain form or design; in writing, this refers to how and where certain things are placed in a document
+The format needs to be the same for everyone.
+I like to keep the format as simple as possible.
+
+Inc.
+adjective
+an abbreviation of "Incorporated," meaning that a company is legally recognized and has certain rights and duties and must follow certain laws
+Write our company's name on the third line. Don't forget to write “Inc.” at the end!
+Many larger businesses that are incorporated use "Inc." at the end of their business name.
+
+disclaimer
+noun
+a statement that denies responsibility for something or a connection to something
+And last—pay attention, everyone—the fourth line is a disclaimer.
+Many tools come with a disclaimer saying that if the user hurts himself, it is not the fault of the company but of the user.
+
+recipient
+noun
+the person who receives an e-mail
+This e-mail is to be read by the intended recipient only.
+Sometimes an e-mail has more than one recipient.
+
+sender
+noun
+the person who sends an e-mail
+If you have received this message in error, please inform the sender and delete all copies.
+If I receive something in the mail that's not for me, I can give it to the post office to return it to the sender.
+
+distribute
+verb
+to give something to other people
+This e-mail shall not be forwarded or otherwise distributed to third parties.
+At the conference they usually distribute free samples to everyone.
+
+automatically
+adverb
+without having to something manually 
+Also, be sure to update your e-mail settings so that this signature appears automatically on external e-mails, but not on internal e-mails.
+Most doors at grocery stores open automatically when they sense that people are near.
+
+technically challenged
+adjective
+slightly negative term used for people who aren't good with computers or other technology
+For those of you who are more technically challenged, Gary here will show you how when I'm finished.
+It took me forever to learn how to use a smartphone; I'm a little technically challenged.
+
+omit
+verb
+to not include something on purpose
+And, I really shouldn't have to say this, but make sure you omit the signature block from replies.
+I usually omit my middle name—I only use it for legal documents.
+
+affiliation
+noun
+the status of belonging to a group or company
+Most people write their affiliation in their signature block.
+I don't like to talk about my political affiliation at work.
+
+move on
+phrasal verb
+to go forward; to change focus
+OK, now, let's move on to salutations and closings.
+The children first looked at the penguins in the zoo, then they moved on to the polar bears.
+
+salutation
+noun
+the phrase you use to start a letter or an e-mail; a greeting to another person
+OK, now, let's move on to salutations and closings.
+"Dear" is the traditional salutation used for almost all letters.
+
+apparently
+adverb
+as something seems or appears
+Apparently, since we are using e-mail and not letters, you all have forgotten how to be polite!
+This jewelry was expensive, but apparently it's made of glass, not gems.
+
+hit return
+phrase
+to push the button on your computer keyboard that makes the text start again on the next line
+On a new line write “Yours faithfully,” a comma, then hit return, and then of course your name.
+Always hit return after you write the salutation for your letter or e-mail.
+
+external
+adjective
+outside of a group or space
+From now on, I don't want to see any e-mails going to external clients with “hi,” “What's up?” “hey,” or anything like that!
+All visitors from external companies have to sign the guest book.
+
+err on the side of caution
+phrase
+to choose an option that is safe rather than risky
+You should err on the side of caution and start with a more formal greeting.
+When you create a budget, it's better to err on the side of caution so you don't spend too much.
+
+follow one's lead 
+phrase
+to copy the behavior of another person 
+Then, if the clients become more informal, you can follow their lead.
+My friend is a chef at a restaurant, so when we go out to dinner I always follow her lead on what to order.
+
+What's up?
+phrase
+a very casual way to ask "How are you?"
+From now on, I don't want to see any e-mails going to external clients with “hi,” “What's up?” “hey,” or anything like that!
+What's up, Dan? Working hard?
+
+better safe than sorry
+phrase
+to act cautiously in order to avoid a bad result 
+It might seem old-fashioned, but better safe than sorry.
+I always bring an umbrella with me. Better safe than sorry!
+
+an awful lot
+phrase
+a very large amount
+Mr. Jones seems to know an awful lot about what's going on at our company.
+There are an awful lot of typing mistakes in this report. How did that happen?
+
+renegotiate
+verb
+to try to change a previous agreement with a discussion
+He asked me if we were going to renegotiate all our third-party contracts.
+When my apartment lease expired, I met with the landlord and renegotiated. As a result, they're not going to raise my rent this year.
+
+scroll down
+phrasal verb
+to use your mouse to see an additional part of a Web page or e-mail
+Scroll down and check for any information you need to leave out.
+To continue reading the Web page, he scrolled down.
+
+confidential
+adjective
+not allowed to be shared with people who do not have permission; private and secret from others
+Check for any confidential or unnecessary information that needs to be left out.
+Any secret information about our products that might help our competitors should be considered confidential.
+
+leave out
+phrasal verb
+to not include
+Check for any confidential or unnecessary information that needs to be left out.
+When you prepare the report, make sure you don't leave out the sales figures for last year.
+
+personnel
+noun
+staff; the people who work for the company
+That includes any information about our company's finances, personnel, contracts, etc.
+All of our personnel are highly trained professionals.
+
+unintended
+adjective
+unplanned; accidental
+And be careful about unintended recipients.
+If you are not careful about what you write to external suppliers, it can have unintended consequences.
+
+autocomplete
+noun
+a computer or phone function that automatically fills in the text after you type the first few letters
+Sometimes the autocomplete causes mistakes.
+My autocomplete sometimes drives me crazy because it wants to fill in my name every time I type the letter "m"!
+
+double-check
+verb
+to check something again to be sure it's correct
+Double-check before sending.
+I always double-check my work for any spelling mistakes because I know I'm terrible at spelling.
+
+litigation
+noun
+a lawsuit or legal action
+These kinds of mistakes put us at risk not only of embarrassment, but of litigation.
+We are currently in litigation because one of our competitors claims we copied their design.
+
+straighten out
+phrasal verb
+to put something back in the correct position or way of working; to fix
+I'll update everyone on the team and make sure we straighten things out.
+I straightened out the marketing department. There are a lot of problems there.
+
