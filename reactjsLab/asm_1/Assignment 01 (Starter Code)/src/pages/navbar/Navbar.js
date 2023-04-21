@@ -1,13 +1,30 @@
 import React from "react";
 import "./Navbar.css";
 
-const Navbar = () => {
+const Navbar = (props) => {
   return (
-    <div>
-      <div>
+    <div className="navbar">
+      <div className="navbar_1">
         <div>Booking Website</div>
-        <button>Register</button>
-        <button>Login</button>
+        <div>
+          <button className="navbar_a">Register</button>
+          <button className="navbar_b">Login</button>
+        </div>
+      </div>
+      <ul className="navbar_2">
+        {props.navbarList.map((nav) => (
+          <li className={"fa " + nav.icon} key={nav.type}>
+            {nav.type}
+          </li>
+        ))}
+      </ul>
+      <div className="navbar_3">
+        <h2>A lifetime of discounts? it's Genius</h2>
+        <h6>
+          Get rewarded for your trvals-unlock instant saving of 10% or more with
+          a free account
+        </h6>
+        <button>Sign in / Register</button>
       </div>
     </div>
   );

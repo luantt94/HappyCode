@@ -1,0 +1,38 @@
+.navbar {
+  background-color: blue;
+  color: #f1efef;
+}
+
+.navbar_1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30px;
+  padding-top: 20px;
+}
+
+.navbar_a {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.navbar_b {
+  padding: 5px;
+}
+
+.navbar_2 {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin: 10px;
+}
+
+.navbar_3 {
+  margin: 0 30px;
+  margin-top: 20px;
+}
+
+h6 {
+  margin: 10px 0;
+}
