@@ -1,0 +1,11 @@
+.city {
+  position: relative;
+  text-align: center;
+  color: rgb(48, 46, 46);
+}
+
+.img {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
