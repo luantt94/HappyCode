@@ -52,22 +52,29 @@ const Home = () => {
   return (
     <div>
       <Navbar navbarList={navbarList} />
-
-      <Tity
-        name={imageCity[0].name}
-        subText={imageCity[0].subText}
-        image={imageCity[0].image}
-      />
-      <Tity
-        name={imageCity[1].name}
-        subText={imageCity[1].subText}
-        image={imageCity[1].image}
-      />
-      <Tity
-        name={imageCity[2].name}
-        subText={imageCity[2].subText}
-        image={imageCity[2].image}
-      />
+      <div className="row">
+        <div className="col-sm-4">
+          <Tity
+            name={imageCity[0].name}
+            subText={imageCity[0].subText}
+            image={imageCity[0].image}
+          />
+        </div>
+        <div className="col-sm-4">
+          <Tity
+            name={imageCity[1].name}
+            subText={imageCity[1].subText}
+            image={imageCity[1].image}
+          />
+        </div>
+        <div className="col-sm-4">
+          <Tity
+            name={imageCity[2].name}
+            subText={imageCity[2].subText}
+            image={imageCity[2].image}
+          />
+        </div>
+      </div>
     </div>
   );
 };

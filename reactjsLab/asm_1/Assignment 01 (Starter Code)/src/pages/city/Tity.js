@@ -5,8 +5,10 @@ const Tity = (props) => {
   return (
     <div className="city">
       <img className="image_city" src={props.image} alt="a beauty city" />
-      <div>{props.name}</div>
-      <div>{props.subText}</div>
+      <div className="city_1">
+        <h3>{props.name}</h3>
+        <h4>{props.subText}</h4>
+      </div>
     </div>
   );
 };
