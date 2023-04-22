@@ -1,0 +1,18 @@
+.form {
+  background-color: #24009a;
+  text-align: center;
+  color: white;
+  padding: 40px 0;
+}
+
+.form_1 {
+  background-color: #5d34e279;
+  border: none;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.form_2 {
+  border-radius: 5px;
+  color: #000;
+}

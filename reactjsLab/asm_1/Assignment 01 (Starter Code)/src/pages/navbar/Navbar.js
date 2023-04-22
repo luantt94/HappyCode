@@ -20,11 +20,15 @@ const Navbar = (props) => {
       </ul>
       <div className="navbar_3">
         <h2>A lifetime of discounts? it's Genius</h2>
-        <h6>
+        <h6 className="navbar_5">
           Get rewarded for your trvals-unlock instant saving of 10% or more with
           a free account
         </h6>
-        <button>Sign in / Register</button>
+        <button className="navbar_4">Sign in / Register</button>
+      </div>
+      <div className="navbar_6">
+        <input type="text" placeholder="Your Email..." />
+        <button className="navbar_7">Search</button>
       </div>
     </div>
   );
