@@ -1,10 +1,10 @@
 import React from "react";
-import Navbar from "../navbar/Navbar";
-import Tity from "../city/Tity";
-import Hotels from "../hotels/Hotels";
-import Type from "../imageType/Type";
-import Form from "../form/Form";
-import Footer from "../footer/Footer";
+import Navbar from "../../component/navbar/Navbar";
+import Tity from "../../component/city/Tity";
+import Hotels from "../../component/hotels/Hotels";
+import Type from "../../component/imageType/Type";
+import Form from "../../component/form/Form";
+import Footer from "../../component/footer/Footer";
 
 const Home = () => {
   const navbarList = [
