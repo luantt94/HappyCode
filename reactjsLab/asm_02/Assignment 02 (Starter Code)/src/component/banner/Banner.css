@@ -1,0 +1,38 @@
+.banner {
+  /* position: relative; */
+  font-family: sans-serif;
+}
+
+.banner_img {
+  height: 70vh;
+  width: 100%;
+}
+
+.banner_1 {
+}
+
+.banner_2 {
+  margin: 0 40px;
+  position: absolute;
+  bottom: 40%;
+  color: white;
+}
+
+.banner_2 h1 {
+  font-weight: bold;
+}
+
+.banner_2 button {
+  margin-right: 20px;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 20px;
+  cursor: pointer;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.411);
+}
+
+.banner_2 p {
+  width: 30%;
+  font-weight: bold;
+}
