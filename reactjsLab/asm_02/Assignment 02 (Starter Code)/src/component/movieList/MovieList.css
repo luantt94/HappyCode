@@ -1,0 +1,22 @@
+.movie_list {
+  padding: 10px 40px;
+  background-color: rgb(44, 44, 44);
+  color: white;
+  font-size: 22px;
+}
+
+.movie_list1 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.movie {
+}
+
+.movie_img {
+  width: 255px;
+  height: 120px;
+  object-fit: cover;
+  padding: 5px;
+}

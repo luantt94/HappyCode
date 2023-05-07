@@ -1,11 +1,14 @@
 .banner {
-  /* position: relative; */
+  position: relative;
   font-family: sans-serif;
 }
 
 .banner_img {
-  height: 70vh;
+  height: 90vh;
   width: 100%;
+  object-fit: cover;
+
+  /* background: rgba(95, 91, 95, 0.3); */
 }
 
 .banner_1 {
@@ -14,12 +17,14 @@
 .banner_2 {
   margin: 0 40px;
   position: absolute;
-  bottom: 40%;
+  top: 20%;
   color: white;
 }
 
 .banner_2 h1 {
   font-weight: bold;
+  font-size: 80px;
+  text-shadow: 0px 0px 5px #141414;
 }
 
 .banner_2 button {
@@ -30,9 +35,13 @@
   cursor: pointer;
   color: white;
   background-color: rgba(0, 0, 0, 0.411);
+  font-size: 24px;
+  text-shadow: 0px 0px 5px #141414;
 }
 
 .banner_2 p {
-  width: 30%;
+  width: 50%;
   font-weight: bold;
+  font-size: 18px;
+  text-shadow: 0px 0px 5px #141414;
 }
