@@ -1,0 +1,31 @@
+.movie_list {
+  padding: 10px 40px;
+  background-color: rgb(44, 44, 44);
+  color: white;
+  font-size: 22px;
+}
+
+.movie_list > .row {
+  overflow-x: auto;
+  /* overflow: hidden; */
+  flex-wrap: nowrap;
+}
+/* ::-webkit-scrollbar {
+  width: 10px;
+  height: 8px;
+} */
+
+.movie {
+}
+
+.movie_img {
+  width: 200px;
+  height: 200px;
+  /* object-fit: cover; */
+  /* padding: 20px; */
+  cursor: pointer;
+}
+
+.movie_img:hover {
+  height: 220px;
+}
