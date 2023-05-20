@@ -1,0 +1,28 @@
+.header {
+  background-color: #15678d;
+  padding: 0 50px;
+}
+
+.header_1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_2 {
+  display: flex;
+  align-items: center;
+}
+
+.header_2 h3 {
+  padding: 0 10px;
+}
+
+.header_3 {
+  color: white;
+  text-decoration: none;
+}
+
+.header_2 .header_3:hover,
+.header_2 .header_3.active {
+  color: #93d3f1;
+}
