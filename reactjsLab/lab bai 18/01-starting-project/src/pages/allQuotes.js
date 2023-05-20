@@ -1,7 +1,8 @@
+import AllForm from "../component/allForm";
 function AllQuotes() {
   return (
     <div>
-      <h3>All Quotes</h3>
+      <AllForm />
     </div>
   );
 }

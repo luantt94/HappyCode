@@ -5,17 +5,19 @@ function Form() {
     <>
       <div className="form">
         <div className="form_1">
-          <label for="fname">Author</label>
+          <label>Author</label>
           <input></input>
         </div>
 
-        <div>
-          <p>Text</p>
-          <input></input>
+        <div className="form_2">
+          <label>Text</label>
+          <textarea></textarea>
         </div>
 
         <button>
-          <Link>Add Quotes</Link>
+          <Link to="/all" className="link">
+            Add Quotes
+          </Link>
         </button>
       </div>
     </>

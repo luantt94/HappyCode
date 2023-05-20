@@ -1,0 +1,64 @@
+.allForm {
+  width: 500px;
+  height: 250px;
+
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.allForm_1 {
+  padding: 5px;
+
+  border: 0.5px solid #15678d;
+  border-radius: 3px;
+
+  margin-bottom: 10px;
+}
+
+.link_1 {
+  color: #15678d;
+  text-decoration: none;
+}
+.forma_1 {
+  border-bottom: 2px solid #15678d;
+}
+
+.allForm_2 {
+  margin-top: 10px;
+  background-color: aquamarine;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.allForm_2 p {
+  width: 70%;
+}
+
+.allForm_2 button {
+  padding: 5px;
+  position: relative;
+  left: 60%;
+  background-color: #15678d;
+  border: none;
+  border-radius: 3px;
+}
+
+span {
+  font-size: 12px;
+  color: #b4b2b2;
+}
+
+.allForm_3 {
+  background-color: aquamarine;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.allForm_3 button {
+  margin-left: 70%;
+  padding: 5px;
+  background-color: #15678d;
+  border: none;
+  border-radius: 3px;
+}
