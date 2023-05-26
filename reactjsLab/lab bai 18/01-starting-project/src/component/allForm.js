@@ -11,19 +11,19 @@ function AllForm() {
   const [quotesState, setQuotesState] = useState(quoteData);
   function sortByAuthors() {
     const sortBtn = document.getElementsByClassName("allForm_1")[0];
-    // if (sortBtn.innerText === "Sort Ascending") {
-    if (searchParams.get("sort") === "asc") {
+    if (sortBtn.innerText === "Sort Ascending") {
+      // if (searchParams.get("sort") === "asc") {
       sortBtn.innerText = "Sort Descending";
       quoteData.quotes.sort(function (a, b) {
         return a.content.localeCompare(b.content);
       });
-      // setSearchParams({ sort: "asc" });
+      setSearchParams({ sort: "asc" });
     } else {
       sortBtn.innerText = "Sort Ascending";
       quoteData.quotes.sort(function (a, b) {
         return b.content.localeCompare(a.content);
       });
-      // setSearchParams({ sort: "desc" });
+      setSearchParams({ sort: "desc" });
     }
 
     const tmp = JSON.parse(JSON.stringify(quoteData));
