@@ -2,30 +2,45 @@ import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import "./form.css";
 const quoteData = {
-  quotes: [{ author: "To Hoai", quote: "aaaaaaaaaaaaaaaa" }],
+  quotes: [
+    {
+      quoteId: 1,
+      author: "To Hoai",
+      content:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled",
+    },
+  ],
 };
+
+function getMaxId(data) {
+  let max = 1;
+  data.quotes.map((item) => (max = max > item.quoteId ? max : item.quoteId));
+  return max;
+}
+
 function Form() {
   const [author, setAuthor] = useState("");
-  const [quote, setQuote] = useState("");
+  const [content, setContent] = useState("");
   const navigate = useNavigate();
 
   const handleSubmit = (event) => {
     event.preventDefault();
     // Validate input
-    if (!author || !quote) {
+    if (!author || !content) {
       return;
     }
+    const quoteId = getMaxId(quoteData) + 1;
     // Submit data
-    const newQuote = { author, quote };
+    const newQuote = { quoteId, author, content };
     quoteData.quotes.push(newQuote);
     // Store the object into storage
     localStorage.setItem("quoteData", JSON.stringify(quoteData));
-    console.log("New quote: ", newQuote);
+    console.log("New content: ", newQuote);
     console.log(" quotes: ", quoteData);
 
     // Reset form
     setAuthor("");
-    setQuote("");
+    setContent("");
     navigate("/all");
   };
 
@@ -47,17 +62,12 @@ function Form() {
         <div className="form_2">
           <label>Text</label>
           <textarea
-            value={quote}
-            onChange={(event) => setQuote(event.target.value)}
+            value={content}
+            onChange={(event) => setContent(event.target.value)}
           ></textarea>
         </div>
 
-        <button type="submit">
-          Add Quotes
-          {/* <Link to="/all" className="link">
-            Add Quotes
-          </Link> */}
-        </button>
+        <button type="submit">Add Quotes</button>
       </form>
     </>
   );

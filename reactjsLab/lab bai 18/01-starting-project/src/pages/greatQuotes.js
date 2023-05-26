@@ -1,9 +1,9 @@
-import Form from "../component/form";
-
 function GreatQuotes() {
   return (
     <div>
-      <Form />
+      <main>
+        <h1>HI!</h1>
+      </main>
     </div>
   );
 }

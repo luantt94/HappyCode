@@ -1,5 +1,8 @@
 import AllForm from "../component/allForm";
-function AllQuotes() {
+
+function AllQuotes(props) {
+ 
+
   return (
     <div>
       <AllForm />
