@@ -1,5 +1,4 @@
-
-const CartPage =()=>{
-  return<></>
-}
-export default CartPage
+const CartPage = () => {
+  return <>cart</>;
+};
+export default CartPage;

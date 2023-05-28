@@ -1,0 +1,49 @@
+.homePage {
+  position: relative;
+}
+.homePage_1 {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
+
+.homePage img {
+  width: 100%;
+}
+
+.homePage_2 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.hover-effect:hover {
+  opacity: 0.8;
+  transition: 0.3s ease-in-out;
+}
+
+.hinh {
+  padding: 10px 10px;
+}
+
+.free {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f4f5f9;
+  padding: 0 20px;
+  padding-top: 15px;
+}
+
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product_1 {
+  width: 24%;
+}
+
+.product_1 img {
+  width: 100%;
+  object-fit: cover;
+}
