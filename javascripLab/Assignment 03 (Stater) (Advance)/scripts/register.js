@@ -6,23 +6,22 @@ const inputPassword = document.querySelector("#input-password");
 const inputPasswordConfirm = document.querySelector("#input-password-confirm");
 const Sumbit = document.getElementById("btn-submit");
 
-saveToStorage("userArr", userArr);
 // Bắt sự kiện khi nhấn nút register
 Sumbit.addEventListener("click", function () {
-  console.log("đã click"); // kiểm tra đã click chưa
-
   // lấy các dữ liệu từ người dùng nhập vào
   const user = new User(
     inputFirstname.value,
     inputLastname.value,
     inputUsername.value,
-    inputPassword.value,
-    inputPasswordConfirm.value
+    inputPassword.value
   );
   // kiểm tra và đẩy dữ liệu user lên Storage
   const isvalidate = validate(user);
+
   if (isvalidate) {
+    // thêm user vào mảng userArr
     userArr.push(user);
+
     saveToStorage("userArr", userArr); // cập nhật lại dữ liệu
     alert(" đăng ký thành công ");
 
@@ -30,6 +29,10 @@ Sumbit.addEventListener("click", function () {
     window.location.href = "../pages/login.html";
   }
 });
+
+////
+// validate thông tin đăng ký của người dùng khi nhập vào form
+// trả về true nếu hợp lệ và false nếu không hợp lệ
 function validate(user) {
   let isvalidate = true;
   //kiểm tra thông tin không được để trống
@@ -48,7 +51,7 @@ function validate(user) {
 
   // điều kiện để đặt mật khẩu
   if (user.password.length < 8) {
-    alert("mật khẩu phải có ký tự không dưới 8 ký tự");
+    alert("mật khẩu phải có ít nhất 8 ký tự");
     isvalidate = false;
   }
   if (user.password !== inputPasswordConfirm.value) {
@@ -60,10 +63,7 @@ function validate(user) {
     if (userArr[i].username === user.username) {
       alert(`đã tồn tại tài khoản ${user.username}`);
       isvalidate = false;
-      break;
     }
   }
   return isvalidate;
 }
-console.log(userArr);
-

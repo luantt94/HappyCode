@@ -13,6 +13,7 @@ class User {
     this.lastname = lastname;
     this.username = usename;
     this.password = password;
+
     this.pagesize = pagesize;
     this.category = category;
   }
@@ -25,4 +26,3 @@ class Task {
     this.isdone = isdone;
   }
 }
-
