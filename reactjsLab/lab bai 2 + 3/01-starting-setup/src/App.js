@@ -3,7 +3,6 @@ import Expenses from "./components/Expenses/Expenses";
 import NewExpense from "./components/NewExpense/NewExpense";
 
 const App = () => {
-  
   const expense = [
     {
       id: "e1",
@@ -26,19 +25,18 @@ const App = () => {
     },
   ];
 
-  const addExpenseHandler = expense => {
-    console.log('In App.js');
-    console.log((expense));
-  }
-
+  const addExpenseHandler = (expense) => {
+    console.log("In App.js");
+    console.log(expense);
+  };
 
   return (
     <div>
-      <NewExpense onAddExpense={addExpenseHandler}/>
-      <p>This is also visible!</p>
-      <Expenses items ={expense}/>
+      <NewExpense onAddExpense={addExpenseHandler} />
+      {/* <p>This is also visible!</p> */}
+      <Expenses items={expense} />
     </div>
   );
-}
+};
 
 export default App;
