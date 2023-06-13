@@ -1,0 +1,14 @@
+.home {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.home-1 {
+  margin: 0 auto;
+  border: 1px solid rgb(150, 149, 149);
+  width: 200px;
+}
+
+.home-1 img {
+  width: 100%;
+}

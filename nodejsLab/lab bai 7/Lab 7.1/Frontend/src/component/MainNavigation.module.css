@@ -1,0 +1,20 @@
+header {
+  background-color: #00695c;
+  padding: 5px 0;
+}
+
+.list {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+.list a {
+  text-decoration: none;
+  color: white;
+}
+
+.list a:hover,
+.list a.active {
+  color: rgb(243, 239, 17);
+}
