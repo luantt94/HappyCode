@@ -1,8 +1,1 @@
-[
-  { "key": 1,
-    "title": "A Book",
-    "imageUrl": "https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg",
-    "description": "This is an awesome book!",
-    "price": "19"
-  }
-]
+[{"id":1,"title":"A Book","imageUrl":"https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg","description":"This is an awesome book!","price":"19"},{"title":"A Book","imageUrl":"https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg","description":"15","price":"abc","id":"0.4788117689879483"},{"title":"ABook","imageUrl":"https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg","price":"dâddad","description":"4","id":"0.017107711683769677"},{"title":"A Book ","imageUrl":"https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg","price":"22","description":"abc","id":"0.8817921788216116"},{"title":"3","imageUrl":"https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg","price":"3","description":"3","id":"0.05245667150647959"}]

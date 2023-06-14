@@ -5,36 +5,18 @@ const AddProduct = ({ method, event }) => {
   const isSubmitting = navigation.state === "submitting";
 
   return (
-    <Form method={method} className="add-product">
+    <Form method="POST" className="add-product">
       <p>
         <label htmlFor="title">Title</label>
-        <input
-          id="title"
-          type="text"
-          name="title"
-          required
-          defaultValue={event ? event.title : ""}
-        />
+        <input id="title" type="text" name="title" required defaultValue="" />
       </p>
       <p>
         <label htmlFor="image">Image</label>
-        <input
-          id="image"
-          type="url"
-          name="image"
-          required
-          defaultValue={event ? event.image : ""}
-        />
+        <input id="image" type="url" name="image" required defaultValue="" />
       </p>
       <p>
         <label htmlFor="price">Price</label>
-        <input
-          id="price"
-          type="text"
-          name="price"
-          required
-          defaultValue={event ? event.price : ""}
-        />
+        <input id="price" type="text" name="price" required defaultValue="" />
       </p>
       <p>
         <label htmlFor="description">Description</label>
@@ -43,7 +25,7 @@ const AddProduct = ({ method, event }) => {
           type="text"
           name="description"
           required
-          defaultValue={event ? event.description : ""}
+          defaultValue=""
         />
       </p>
       <div>
@@ -58,26 +40,20 @@ const AddProduct = ({ method, event }) => {
 export default AddProduct;
 
 export async function action({ request, params }) {
-  const method = request.method;
   const data = await request.formData();
 
   const eventData = {
     title: data.get("title"),
     image: data.get("image"),
-    date: data.get("date"),
+    price: data.get("price"),
     description: data.get("description"),
   };
   console.log(eventData);
 
   let url = "http://localhost:5000/products";
 
-  if (method === "PATCH") {
-    const eventId = params.eventId;
-    url = "http://localhost:5000/products/" + eventId;
-  }
-
   const response = await fetch(url, {
-    method: method,
+    method: "POST",
     headers: {
       "Content-Type": "application/json",
     },
