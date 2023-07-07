@@ -1,0 +1,45 @@
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+.loginForm {
+  width: 300px;
+}
+
+.loginInputContainer {
+  margin-top: 1.5rem;
+  width: 100%;
+  height: 30px;
+}
+
+.loginInputContainer > input {
+  width: 100%;
+  height: 100%;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.buttonContainer a {
+  text-decoration: none;
+  font-size: small;
+  margin-left: auto;
+}
+
+button[type='submit'] {
+  background-color: #003580;
+  color: white;
+  border: none;
+  padding: 0.5rem 2rem;
+
+  border-radius: 0.3rem;
+  cursor: pointer;
+}

@@ -1,0 +1,30 @@
+.card-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex-grow: 1;
+  padding: 10px;
+  background: #f0f0f0;
+  margin: 10px;
+  height: 80px;
+  position: relative;
+}
+
+.count {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 40px;
+}
+
+.shadow {
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}

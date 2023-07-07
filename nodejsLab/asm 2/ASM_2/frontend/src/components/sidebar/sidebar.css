@@ -1,0 +1,54 @@
+.admin-sidebar {
+  flex: 0 0 150px;
+  background: #f0f0f0;
+  padding: 20px;
+}
+
+.admin-sidebar-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.admin-sidebar-item {
+  margin-bottom: 10px;
+}
+
+/* .sidebar-item h3 {
+  color: #8033cc;
+} */
+
+.sublist {
+  margin-top: 5px;
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+.sublist li {
+  display: flex;
+  align-items: center;
+}
+
+.sublist li svg {
+  margin-right: 5px;
+  width: 20px;
+}
+
+.sidebarButton {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  cursor: pointer;
+}
+
+.activeTab {
+  color: #8033cc;
+  font-weight: 600;
+}
+
+.sidebarButton:hover {
+  color: #8033cc;
+  font-weight: 600;
+}

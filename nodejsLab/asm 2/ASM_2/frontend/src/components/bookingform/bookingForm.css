@@ -1,0 +1,125 @@
+.booking {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.bookingContainer {
+  display: flex;
+  /* flex-direction: row; */
+}
+
+.select-room {
+  flex-wrap: wrap;
+}
+
+.room {
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.calen {
+  flex: 30%;
+  /* border: double red 1px;x */
+  margin: 0px 5px 0px 5px;
+}
+
+.calen > h2 {
+  margin: 10px 0px;
+}
+
+.bookingWrapper {
+  /* border: double red 1px; */
+  flex: 70%;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+}
+
+.bookingWrapper > button {
+  border: none;
+  padding: 10px 20px;
+  background-color: #0071c2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 45px;
+  margin-left: 20px;
+}
+
+.bookingInputContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1px;
+}
+
+.bookingInputContainer > input {
+  border: ridge;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.bookingContent {
+  /* border: double red 1px; */
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+.bookingCheckBox {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px;
+}
+
+.checkbox-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.bookingWrapper > select {
+  font-size: 16px;
+  color: #333;
+  padding: 8px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-weight: bold;
+  appearance: none;
+  -webkit-appearance: none;
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  cursor: pointer;
+  width: 100%;
+  max-width: 300px; /* Thay đổi giá trị tùy ý */
+}
+
+/* Tùy chỉnh khi select được active */
+select:focus {
+  outline: none;
+  border-color: #666;
+}
+
+/* Tùy chỉnh dropdown list */
+select option {
+  font-size: 16px;
+
+  color: #333;
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+}
+
+/* Tùy chỉnh cho hộp select lớn hơn và có bo góc */
+select.custom {
+  height: auto;
+  padding: 12px;
+  border-radius: 5px;
+}
