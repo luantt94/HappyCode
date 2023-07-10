@@ -1,27 +1,27 @@
-import './hotel.css';
-import Navbar from '../../components/navbar/Navbar';
-import Header from '../../components/header/Header';
-import MailList from '../../components/mailList/MailList';
-import Footer from '../../components/footer/Footer';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import "./hotel.css";
+import Navbar from "../../components/navbar/Navbar";
+import Header from "../../components/header/Header";
+import MailList from "../../components/mailList/MailList";
+import Footer from "../../components/footer/Footer";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCircleArrowLeft,
   faCircleArrowRight,
   faCircleXmark,
   faLocationDot,
-} from '@fortawesome/free-solid-svg-icons';
-import { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
-import axios from '../../utils/axios';
+} from "@fortawesome/free-solid-svg-icons";
+import { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+import axios from "../../utils/axios";
 
-import hotel_detail_1 from '../../images/hotel_detail_1.jpg';
-import hotel_detail_2 from '../../images/hotel_detail_2.jpg';
-import hotel_detail_3 from '../../images/hotel_detail_3.jpg';
-import hotel_detail_4 from '../../images/hotel_detail_4.jpg';
-import hotel_detail_5 from '../../images/hotel_detail_5.jpg';
-import hotel_detail_6 from '../../images/hotel_detail_6.jpg';
+import hotel_detail_1 from "../../images/hotel_detail_1.jpg";
+import hotel_detail_2 from "../../images/hotel_detail_2.jpg";
+import hotel_detail_3 from "../../images/hotel_detail_3.jpg";
+import hotel_detail_4 from "../../images/hotel_detail_4.jpg";
+import hotel_detail_5 from "../../images/hotel_detail_5.jpg";
+import hotel_detail_6 from "../../images/hotel_detail_6.jpg";
 
-import BookingForm from '../../components/bookingform/BookingForm';
+import BookingForm from "../../components/bookingform/BookingForm";
 
 function Hotel() {
   const [slideNumber, setSlideNumber] = useState(0);
@@ -32,7 +32,7 @@ function Hotel() {
   const [formOpen, setFormOpen] = useState(false);
 
   useEffect(() => {
-    const userData = JSON.parse(localStorage.getItem('userData'));
+    const userData = JSON.parse(localStorage.getItem("userData"));
     setUser(userData);
   }, []);
 
@@ -54,15 +54,15 @@ function Hotel() {
     hotel_detail_6,
   ];
 
-  const handleOpen = i => {
+  const handleOpen = (i) => {
     setSlideNumber(i);
     setOpen(true);
   };
 
-  const handleMove = direction => {
+  const handleMove = (direction) => {
     let newSlideNumber;
 
-    if (direction === 'l') {
+    if (direction === "l") {
       newSlideNumber = slideNumber === 0 ? 5 : slideNumber - 1;
     } else {
       newSlideNumber = slideNumber === 5 ? 0 : slideNumber + 1;
@@ -90,7 +90,7 @@ function Hotel() {
             <FontAwesomeIcon
               icon={faCircleArrowLeft}
               className="arrow"
-              onClick={() => handleMove('l')}
+              onClick={() => handleMove("l")}
             />
             <div className="sliderWrapper">
               <img src={photos[slideNumber]} alt="" className="sliderImg" />
@@ -98,7 +98,7 @@ function Hotel() {
             <FontAwesomeIcon
               icon={faCircleArrowRight}
               className="arrow"
-              onClick={() => handleMove('r')}
+              onClick={() => handleMove("r")}
             />
           </div>
         )}
@@ -129,7 +129,7 @@ function Hotel() {
                     />
                   </div>
                 ))
-              : ''}
+              : ""}
           </div>
           <div className="hotelDetails">
             <div className="hotelDetailsTexts">
@@ -137,22 +137,22 @@ function Hotel() {
               <p className="hotelDesc">{hotelData.desc}</p>
             </div>
             <div className="hotelDetailsPrice">
-              {/* <h1>Perfect for a 9-night stay!</h1>
+              <h1>Perfect for a 9-night stay!</h1>
               <span>
                 Located in the real heart of Krakow, this property has an
                 excellent location score of 9.8!
-              </span> */}
+              </span>
               <h2>
                 <b>${hotelData.cheapestPrice}</b> (1 nights)
               </h2>
               <button onClick={toggleForm}>Reserve or Book Now!</button>
             </div>
           </div>
-          {/* <div className="hotelForm"></div> */}
+          <div className="hotelForm"></div>
           {formOpen ? (
             <BookingForm currentUser={user} hotelData={hotelData} />
           ) : (
-            ''
+            ""
           )}
         </div>
         <MailList />

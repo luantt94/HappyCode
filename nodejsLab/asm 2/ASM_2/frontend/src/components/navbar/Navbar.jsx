@@ -1,5 +1,5 @@
-import { useNavigate } from 'react-router-dom';
-import './navbar.css';
+import { useNavigate } from "react-router-dom";
+import "./navbar.css";
 
 function Navbar({ user }) {
   const navigate = useNavigate();
@@ -20,7 +20,9 @@ function Navbar({ user }) {
     } else {
       return (
         <div>
-          <button className="navButton">Register</button>
+          <button className="navButton">
+            <a href="./register">Register</a>
+          </button>
           <button className="navButton">
             <a href="./login">Log in</a>
           </button>
@@ -29,10 +31,10 @@ function Navbar({ user }) {
     }
   };
 
-  const handleClick = e => {
+  const handleClick = (e) => {
     e.preventDefault();
-    localStorage.removeItem('userData');
-    navigate('/login');
+    localStorage.removeItem("userData");
+    navigate("/login");
   };
 
   return (
