@@ -9,15 +9,16 @@ const errorController = require('./controllers/error');
 const User = require('./models/user');
 
 const app = express();
-const userRoutes = require('./routes/user');
+
 app.set('view engine', 'ejs');
 app.set('views', 'views');
 
+const userRoutes = require('./routes/user');
 const adminRoutes = require('./routes/admin');
 const homeRoutes = require('./routes/home');
 
 app.use(bodyParser.json());
-app.use(userRoutes);
+
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(cors());
@@ -39,9 +40,9 @@ app.post('/login', (req, res, next) => {
         const user = new User({
           username: 'chien',
           password: 'chien123',
-          fullName: 'Tran Cong Chien',
-          phoneNumber: '12345',
-          email: 'chien@gmail.com',
+          // fullName: 'Tran Cong Chien',
+          // phoneNumber: '12345',
+          // email: 'chien@gmail.com',
           isAdmin: true,
         });
         user.save();
@@ -53,6 +54,7 @@ app.post('/login', (req, res, next) => {
     .catch(err => console.log(err));
 });
 
+app.use(userRoutes);
 app.use(adminRoutes);
 app.use(homeRoutes);
 

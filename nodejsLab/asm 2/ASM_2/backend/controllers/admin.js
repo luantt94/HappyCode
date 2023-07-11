@@ -120,6 +120,18 @@ exports.postDeleteHotel = (req, res, next) => {
 };
 
 //Delete Room
+// exports.postDeleteRoom = (req, res, next) => {
+//   const roomId = req.body.roomId;
+// };
 exports.postDeleteRoom = (req, res, next) => {
   const roomId = req.body.roomId;
+  Room.findByIdAndDelete(roomId)
+    .then(() => {
+      // Room deleted successfully
+      return res.status(200).send('Room deleted successfully !!');
+    })
+    .catch(err => {
+      console.log(err);
+      return res.status(500).send('Error deleting room');
+    });
 };

@@ -20,6 +20,6 @@ router.post('/add-room', adminController.postAddRoom);
 
 router.post('/delete-hotel', adminController.postDeleteHotel);
 
-router.post('delete-room');
+router.post('delete-room', adminController.postDeleteRoom);
 
 module.exports = router;

@@ -1,10 +1,10 @@
-import { useEffect, useState } from 'react';
-import axios from '../../utils/axios';
-import './featuredProperties.css';
-import hotel1 from '../../images/hotel_1.webp';
-import hotel2 from '../../images/hotel_2.jpg';
-import hotel3 from '../../images/hotel_3.jpg';
-import hotel4 from '../../images/hotel_4.jpg';
+import { useEffect, useState } from "react";
+import axios from "../../utils/axios";
+import "./featuredProperties.css";
+// import hotel1 from "../../images/hotel_1.webp";
+// import hotel2 from "../../images/hotel_2.jpg";
+// import hotel3 from "../../images/hotel_3.jpg";
+// import hotel4 from "../../images/hotel_4.jpg";
 
 function FeaturedProperties({ fetchUrl }) {
   const [hotels, setHotels] = useState([]);
@@ -18,7 +18,7 @@ function FeaturedProperties({ fetchUrl }) {
     fetchData();
   }, [fetchUrl]);
 
-  const image = [hotel1, hotel2, hotel3, hotel4];
+  // const image = [hotel1, hotel2, hotel3, hotel4];
 
   return (
     <div className="fp">
@@ -26,13 +26,13 @@ function FeaturedProperties({ fetchUrl }) {
         return (
           <div key={i} className="fpItem">
             <img
-              src={hotel.photos[0] ? hotel.photos[0] : ''}
+              src={hotel.photos[0] ? hotel.photos[0] : ""}
               alt={hotel.name}
               className="fpImg"
             />
             <span className="fpName">
               <a
-                href={'./hotels/' + hotel._id}
+                href={"./hotels/" + hotel._id}
                 rel="noreferrer"
                 target="_blank"
               >
@@ -47,7 +47,7 @@ function FeaturedProperties({ fetchUrl }) {
         );
       })}
 
-      <div className="fpItem">
+      {/* <div className="fpItem">
         <img
           src="https://cf.bstatic.com/xdata/images/hotel/max1280x900/215955381.jpg?k=ff739d1d9e0c8e233f78ee3ced82743ef0355e925df8db7135d83b55a00ca07a&o=&hp=1"
           alt=""
@@ -100,7 +100,7 @@ function FeaturedProperties({ fetchUrl }) {
           <button>8.9</button>
           <span>Excellent</span>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
