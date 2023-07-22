@@ -4,15 +4,18 @@ const User = require('../models/user');
 exports.postRegUser = (req, res, next) => {
   const username = req.body.username;
   const password = req.body.password;
+  const fullName = req.body.fullName;
+  const phoneNumber = req.body.phoneNumber;
+  const email = req.body.email;
 
   User.findOne({ name: username }).then(user => {
     if (!user) {
       const newUser = new User({
         username: username,
         password: password,
-        // fullName: 'chien',
-        // phoneNumber: '12345',
-        // email: 'chienaa@gmail.com',
+        fullName: fullName,
+        phoneNumber: phoneNumber,
+        email: email,
         isAdmin: false,
       });
       newUser.save();

@@ -46,6 +46,45 @@ const Register = () => {
             />
           </div>
         </div>
+        <div>
+          <div>
+            <label className="email">Email</label>
+          </div>
+          <div>
+            <input
+              className="emailInput"
+              name="email"
+              type="email"
+              {...register("email", { required: true })}
+            />
+          </div>
+        </div>
+        <div>
+          <div>
+            <label className="fullName">Full Name</label>
+          </div>
+          <div>
+            <input
+              className="fullNameInput"
+              name="fullName"
+              type="text"
+              {...register("fullName", { required: true })}
+            />
+          </div>
+        </div>
+        <div>
+          <div>
+            <label className="phoneNumber">Phone Number</label>
+          </div>
+          <div>
+            <input
+              className="phoneNumberInput"
+              name="phoneNumber"
+              type="text"
+              {...register("phoneNumber", { required: true })}
+            />
+          </div>
+        </div>
         <button className="buttonReg">Register</button>
       </form>
     </div>

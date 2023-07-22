@@ -13,15 +13,15 @@ const userSchema = new Schema({
   },
   fullName: {
     type: String,
-    required: false,
+    required: true,
   },
   phoneNumber: {
     type: String,
-    required: false,
+    required: true,
   },
   email: {
     type: String,
-    required: false,
+    required: true,
   },
   isAdmin: {
     type: Boolean,
