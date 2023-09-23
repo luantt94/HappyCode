@@ -1,0 +1,17 @@
+.nav {
+  background-color: #24009a;
+
+  color: white;
+  font-family: sans-serif;
+}
+
+.nav1 {
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 10px;
+  border: 1px solid #24009a;
+}
+
+.nav1:hover {
+  border-color: white;
+}
