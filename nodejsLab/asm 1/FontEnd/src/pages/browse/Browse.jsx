@@ -50,8 +50,7 @@ function Browse() {
     <div className="app">
       <Nav />
       {/* <Banner users={users} /> */}
-      <MovieList movies={movies} /> <MovieList movies={movies} />
-      <MovieList movies={movies} /> <MovieList movies={movies} />
+      <MovieList movies={movies} />
     </div>
   );
 }
