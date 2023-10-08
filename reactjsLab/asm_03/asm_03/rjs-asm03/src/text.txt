@@ -1,8 +1,0 @@
-category": "iphone",
-category": "iphone",
-category": "iphone",
-category": "ipad",
-category": "ipad",
-category": "watch",
-category": "watch",
-category": "airpod",
