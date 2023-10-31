@@ -52,3 +52,9 @@ export const login = async (req, res, next) => {
     next(err);
   }
 };
+
+export const logout = (req, res, next) => {
+  req.session.destroy((err) => {
+    res.status(200).json("Logout success!");
+  });
+};
