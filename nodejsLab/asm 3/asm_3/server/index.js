@@ -5,7 +5,7 @@ import cookieParser from "cookie-parser";
 
 import authRoute from "./routes/auth.js";
 import usersRoute from "./routes/users.js";
-import productsRoute from "./routes/auth.js";
+import productsRoute from "./routes/products.js";
 
 const app = express();
 

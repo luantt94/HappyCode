@@ -1,10 +1,11 @@
 import mongoose from "mongoose";
 const { Schema } = mongoose;
 const ProductSchema = new Schema(
+  //TODO: validate data
   {
     category: {
       type: String,
-      required: true,
+      required: false,
     },
     name: {
       type: String,
@@ -12,23 +13,23 @@ const ProductSchema = new Schema(
     },
     price: {
       type: Number,
-      required: true,
+      required: false,
     },
     imageURL: {
       type: [],
-      required: true,
+      required: false,
     },
     stock: {
       type: Number,
-      required: true,
+      required: false,
     },
     long_desc: {
       type: String,
-      required: true,
+      required: false,
     },
     short_desc: {
       type: String,
-      required: true,
+      required: false,
     },
   },
   { timestamps: true }
