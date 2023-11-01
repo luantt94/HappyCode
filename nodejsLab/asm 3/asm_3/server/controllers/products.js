@@ -9,18 +9,18 @@ import Product from "../models/products.models.js";
 //     .catch((err) => next(err));
 // };
 
-// // Get Detail Product
-// export const getDetailProduct = async (req, res, next) => {
-//   try {
-//     const productId = req.params.productId;
-//     const product = await Product.findById(productId);
-//     if (!product) return next(createError(404, "Product not exists!"));
+// Get Detail Product
+export const getDetailProduct = async (req, res, next) => {
+  try {
+    const productId = req.params.productId;
+    const product = await Product.findById(productId);
+    if (!product) return next(createError(404, "Product not exists!"));
 
-//     res.status(200).json(product);
-//   } catch (err) {
-//     next(err);
-//   }
-// };
+    res.status(200).json(product);
+  } catch (err) {
+    next(err);
+  }
+};
 
 // Edit Product
 // export const EditProduct = async (req, res, next) => {

@@ -1,8 +1,13 @@
 import express from "express";
-import { addProduct, deleteProduct } from "../controllers/products.js";
+import {
+  addProduct,
+  deleteProduct,
+  getDetailProduct,
+} from "../controllers/products.js";
 
 const router = express.Router();
-
+// Get Detail Product
+router.get("/:productId", getDetailProduct);
 // Add Product
 // router.post("/", verifyAdmin, fileUploader.array("image"), addProduct);
 router.post("/", addProduct);

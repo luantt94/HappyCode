@@ -5,7 +5,7 @@ const ProductSchema = new Schema(
   {
     category: {
       type: String,
-      required: false,
+      required: true,
     },
     name: {
       type: String,
@@ -13,23 +13,23 @@ const ProductSchema = new Schema(
     },
     price: {
       type: Number,
-      required: false,
+      required: true,
     },
     imageURL: {
       type: [],
-      required: false,
+      required: true,
     },
     stock: {
       type: Number,
-      required: false,
+      required: true,
     },
     long_desc: {
       type: String,
-      required: false,
+      required: true,
     },
     short_desc: {
       type: String,
-      required: false,
+      required: true,
     },
   },
   { timestamps: true }
