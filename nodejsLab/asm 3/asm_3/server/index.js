@@ -9,6 +9,7 @@ import usersRoute from "./routes/users.js";
 import productsRoute from "./routes/products.js";
 
 const app = express();
+// app.use(cors())
 app.use(cors({ origin: "http://localhost:3000", credentials: true }));
 dotenv.config();
 app.use(express.json());
@@ -20,9 +21,10 @@ app.use("/users", usersRoute);
 const connect = async () => {
   try {
     await mongoose.connect(process.env.MONGO);
-    console.log("connect mongoose");
+    console.log("connected to mongoose");
   } catch (error) {
-    console.log("error");
+    console.log("error while connecting mongoose");
+    console.log(error);
   }
 };
 

@@ -23,10 +23,13 @@ const Login = () => {
     event.preventDefault();
 
     try {
-      const response = await axios.post("localhost:5000/api/auth/login", {
-        username,
-        password,
-      });
+      const response = await axios.post(
+        "http://localhost:5000/api/auth/login",
+        {
+          username,
+          password,
+        }
+      );
       localStorage.setItem("currentUser", JSON.stringify(response.data));
       navigate("/");
       console.log("console.log(response.data);");

@@ -20,6 +20,7 @@ export const register = async (req, res, next) => {
 };
 
 export const login = async (req, res, next) => {
+  console.log("loggin");
   try {
     const user = await User.findOne({ username: req.body.username });
 
