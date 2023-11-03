@@ -3,12 +3,13 @@ import dotenv from "dotenv";
 import mongoose from "mongoose";
 import cookieParser from "cookie-parser";
 
+import cors from "cors";
 import authRoute from "./routes/auth.js";
 import usersRoute from "./routes/users.js";
 import productsRoute from "./routes/products.js";
 
 const app = express();
-
+app.use(cors({ origin: "http://localhost:3000", credentials: true }));
 dotenv.config();
 app.use(express.json());
 app.use(cookieParser());
