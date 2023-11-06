@@ -3,11 +3,11 @@ import Product from "../models/products.models.js";
 
 // const numOfPage = 9;
 // Get All Product
-// export const getProducts = async (req, res, next) => {
-//   await Product.find()
-//     .then((products) => res.status(200).json(products))
-//     .catch((err) => next(err));
-// };
+export const getProducts = async (req, res, next) => {
+  await Product.find()
+    .then((products) => res.status(200).json(products))
+    .catch((err) => next(err));
+};
 
 // Get Detail Product
 export const getDetailProduct = async (req, res, next) => {

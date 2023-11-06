@@ -3,32 +3,49 @@ import { useFormik } from "formik";
 import { basicSchema } from "../schemas";
 import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
-
+import axios from "axios";
 const Register = () => {
   const navigate = useNavigate();
 
   const onSubmit = async (values, actions) => {
-    const userArr = localStorage.getItem("users")
-      ? JSON.parse(localStorage.getItem("users"))
-      : [];
+    axios({
+      method: "POST",
+      url: "http://localhost:5000/api/auth/register",
+      data: {
+        username: values.username,
+        email: values.email,
+        password: values.password,
+      },
+    })
+      .then((response) => {
+        console.log("SIGNUP SUCCESS", response);
+      })
+      .catch((error) => {
+        console.log("SIGNUP FAIL", error);
+      });
+    // event.preventDefault();
+    // const userArr = localStorage.getItem("users")
+    //   ? JSON.parse(localStorage.getItem("users"))
+    //   : [];
 
-    console.log("Submitted");
-    console.log(values.email);
-    console.log(values, JSON.stringify(values));
-    for (let i = 0; i < userArr.length; i++) {
-      if (values.email === userArr[i].email) {
-        toast.error(
-          "This email is taken. Try again with another email or login"
-        );
-        return;
-      }
-    }
-    userArr.push(values);
-    localStorage.setItem("users", JSON.stringify(userArr));
-    console.log(JSON.stringify(userArr));
-    actions.resetForm();
-    toast.success("Register successfully");
-    navigate("/login");
+    // console.log("Submitted");
+    // console.log(values.email);
+    // console.log(values, JSON.stringify(values));
+    // for (let i = 0; i < userArr.length; i++) {
+    //   if (values.email === userArr[i].email) {
+    //     toast.error(
+    //       "This email is taken. Try again with another email or login"
+    //     );
+    //     return;
+    //   }
+    // }
+    // userArr.push(values);
+    // localStorage.setItem("users", JSON.stringify(userArr));
+    // console.log(JSON.stringify(userArr));
+    // actions.resetForm();
+    // toast.success("Register successfully");
+    // navigate("/login");
+    console.log(values);
   };
 
   const {
@@ -42,7 +59,7 @@ const Register = () => {
   } = useFormik({
     initialValues: {
       email: "",
-      fullName: "",
+      username: "",
       password: "",
       phone: "",
     },
@@ -62,16 +79,16 @@ const Register = () => {
         >
           <h3 className=" text-center p-5">Sign Up</h3>
           <input
-            id="fullName"
+            id="username"
             type="text"
             placeholder="Full name"
-            value={values.fullName}
+            value={values.username}
             onChange={handleChange}
             onBlur={handleBlur}
-            className={errors.fullName && touched.fullName ? "input-error" : ""}
+            className={errors.username && touched.username ? "input-error" : ""}
           />
-          {errors.fullName && touched.fullName && (
-            <p className="error">{errors.fullName}</p>
+          {errors.username && touched.username && (
+            <p className="error">{errors.username}</p>
           )}
           <input
             value={values.email}
