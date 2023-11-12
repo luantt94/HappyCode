@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import { useFormik } from "formik";
 import { basicSchema } from "../schemas";
 import { Link, useNavigate } from "react-router-dom";
@@ -6,8 +7,22 @@ import { toast } from "react-toastify";
 import axios from "axios";
 const Register = () => {
   const navigate = useNavigate();
+  const [values, setValues] = useState({
+    name: "",
+    email: "",
+    password: "",
+    phone: "",
+    buttonText: "Submit",
+  });
 
-  const onSubmit = async (values, actions) => {
+  const { username, email, password, phone, buttonText } = values;
+
+  const handleChange = (name) => (event) => {
+    // console.log(event.target.value);
+    setValues({ ...values, [name]: event.target.value });
+  };
+
+  const handleSubmit = async (values, actions) => {
     axios({
       method: "POST",
       url: "http://localhost:5000/api/auth/register",
@@ -48,23 +63,8 @@ const Register = () => {
     console.log(values);
   };
 
-  const {
-    values,
-    errors,
-    touched,
-    isSubmitting,
-    handleBlur,
-    handleChange,
-    handleSubmit,
-  } = useFormik({
-    initialValues: {
-      email: "",
-      username: "",
-      password: "",
-      phone: "",
-    },
+  const { errors, touched, isSubmitting, handleBlur } = useFormik({
     validationSchema: basicSchema,
-    onSubmit,
   });
 
   // console.log(errors);
@@ -82,8 +82,8 @@ const Register = () => {
             id="username"
             type="text"
             placeholder="Full name"
-            value={values.username}
-            onChange={handleChange}
+            value={username}
+            onChange={handleChange("usename")}
             onBlur={handleBlur}
             className={errors.username && touched.username ? "input-error" : ""}
           />
@@ -91,8 +91,8 @@ const Register = () => {
             <p className="error">{errors.username}</p>
           )}
           <input
-            value={values.email}
-            onChange={handleChange}
+            value={email}
+            onChange={handleChange("email")}
             id="email"
             type="email"
             placeholder="Email"
@@ -108,8 +108,8 @@ const Register = () => {
             id="password"
             type="password"
             placeholder="Password"
-            value={values.password}
-            onChange={handleChange}
+            value={password}
+            onChange={handleChange("password")}
             onBlur={handleBlur}
             className={errors.password && touched.password ? "input-error" : ""}
           />
@@ -121,8 +121,8 @@ const Register = () => {
             id="phone"
             type="text"
             placeholder="Phone"
-            value={values.phone}
-            onChange={handleChange}
+            value={phone}
+            onChange={handleChange("phone")}
             onBlur={handleBlur}
             className={errors.phone && touched.phone ? "input-error" : ""}
           />

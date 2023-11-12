@@ -8,11 +8,12 @@ import product3 from "../images/product_3.png";
 import product4 from "../images/product_4.png";
 import product5 from "../images/product_5.png";
 import Popup from "../components/Popup/Popup";
+import { useGetProductsQuery } from "../slices/productsApiSlice";
 
-const url = "http://localhost:5000/products";
+// const url = "http://localhost:5000/products";
 const Home = () => {
   const navigate = useNavigate();
-  const [products, setProducts] = useState([]);
+  // const [products, setProducts] = useState([]);
   const [productsModal, setProductsModal] = useState([]);
 
   const [show, setShow] = useState(false);
@@ -24,15 +25,16 @@ const Home = () => {
     return setShow(true);
   };
 
-  useEffect(() => {
-    const fetchData = async () => {
-      const res = await fetch(url);
+  // useEffect(() => {
+  //   const fetchData = async () => {
+  //     const res = await fetch(url);
 
-      const data = await res.json();
-      setProducts(data.splice(0, 8));
-    };
-    fetchData();
-  }, []);
+  //     const data = await res.json();
+  //     setProducts(data.splice(0, 8));
+  //   };
+  //   fetchData();
+  // }, []);
+  const { data: products, isLoading, error } = useGetProductsQuery();
 
   return (
     <>
@@ -116,39 +118,45 @@ const Home = () => {
             <p className="text-muted text-uppercase mb-1">Made the hard way</p>
             <h2 className="h5 text-uppercase mb-4">Top trending products</h2>
           </header>
-          <div className="row">
-            {products &&
-              products.map((product, index) => (
-                <div key={index} className=" col-lg-3 col-md-6 col-sm-12 ">
-                  <div className="category">
-                    <img
-                      style={{ cursor: "pointer" }}
-                      className=" img-fluid image"
-                      onClick={() =>
-                        handleShow(
-                          product.img1,
-                          product.name,
-                          product.price,
-                          product.short_desc
-                        )
-                      }
-                      src={product.img1}
-                      alt=""
-                    />
+          {isLoading ? (
+            <h2>Loading...</h2>
+          ) : error ? (
+            <div>{error.data.message || error.error}</div>
+          ) : (
+            <div className="row">
+              {products &&
+                products.map((product, index) => (
+                  <div key={index} className=" col-lg-3 col-md-6 col-sm-12 ">
+                    <div className="category">
+                      <img
+                        style={{ cursor: "pointer" }}
+                        className=" img-fluid image"
+                        onClick={() =>
+                          handleShow(
+                            product.img1,
+                            product.name,
+                            product.price,
+                            product.short_desc
+                          )
+                        }
+                        src={product.img1}
+                        alt=""
+                      />
+                    </div>
+                    <div className=" px-3">
+                      <p style={{ fontWeight: "600", fontStyle: "italic" }}>
+                        {product.name}
+                      </p>
+                      <p className=" text-muted">
+                        {/* {product.price.replace(/\B(?=(\d{3})+(?!\d))/g, ",")} */}
+                        {convertMoney(product.price)}
+                        VND
+                      </p>
+                    </div>
                   </div>
-                  <div className=" px-3">
-                    <p style={{ fontWeight: "600", fontStyle: "italic" }}>
-                      {product.name}
-                    </p>
-                    <p className=" text-muted">
-                      {/* {product.price.replace(/\B(?=(\d{3})+(?!\d))/g, ",")} */}
-                      {convertMoney(product.price)}
-                      VND
-                    </p>
-                  </div>
-                </div>
-              ))}
-          </div>
+                ))}
+            </div>
+          )}
         </section>
         <Popup
           open={show}

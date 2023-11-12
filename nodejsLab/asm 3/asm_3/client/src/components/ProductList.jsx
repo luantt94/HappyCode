@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Link } from "react-router-dom";
-
+import convertMoney from "../convertMoney";
 const ProductList = ({ i }) => {
   return (
     <div className="col-md-4 col-lg-4">
@@ -12,7 +12,7 @@ const ProductList = ({ i }) => {
         <div className=" text-center">
           <p className=" fw-bold">{i.name}</p>
           <span className=" text-muted">
-            {i.price.replace(/\B(?=(\d{3})+(?!\d))/g, ".")}
+            {convertMoney(i.price)}
             VNĐ
           </span>
         </div>

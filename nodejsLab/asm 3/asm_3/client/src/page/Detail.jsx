@@ -9,7 +9,7 @@ import { addToCart } from "../redux/cartSlice";
 
 const Detail = (item) => {
   const { id } = useParams();
-  const { product } = useContext(ShopContext);
+  const { products } = useContext(ShopContext);
   const [productCurrent, setProductCurrent] = useState();
   const [relatedProducts, setRelatedProducts] = useState();
   // casi nafy cung vay, no chi dung duoc khi chac chan productCurrent co gia tri
@@ -18,19 +18,24 @@ const Detail = (item) => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   useEffect(() => {
-    if (product !== undefined && product !== null) {
-      const productCurrent1 = product.find((pr) => pr._id.$oid === id);
+    if (products !== undefined && products !== null) {
+      const productCurrent1 = products.find((pr) => pr._id.$oid === id);
       if (productCurrent1 !== undefined) {
         setProductCurrent(productCurrent1);
         setCurrentImage(productCurrent1.img1);
+        console.log(
+          products.filter(
+            (products) => products.category === productCurrent1.category
+          )
+        );
         setRelatedProducts(
-          product.filter(
-            (product) => product.category === productCurrent1.category
+          products.filter(
+            (products) => products.category === productCurrent1.category
           )
         );
       }
     }
-  }, [product]);
+  }, [products]);
 
   // em phai khai bao la 1 state thi moi dung dc
 

@@ -3,14 +3,18 @@ import jwt from "jsonwebtoken";
 import bcrypt from "bcrypt";
 import createError from "../utils/createError.js";
 export const register = async (req, res, next) => {
-  console.log("rgister");
+  console.log("register");
   try {
     const salt = bcrypt.genSaltSync(10);
+    console.log("salt");
+    console.log(salt);
+    console.log(req.body.password);
     const hash = bcrypt.hashSync(req.body.password, salt);
     const newUser = new User({
       username: req.body.username,
       email: req.body.email,
       password: hash,
+      phone: req.body.phone,
     });
 
     await newUser.save();

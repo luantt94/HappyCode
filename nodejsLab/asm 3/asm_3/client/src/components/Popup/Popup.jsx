@@ -1,11 +1,11 @@
 import React from "react";
 import { FaShoppingCart } from "react-icons/fa";
-import './Popup.css'
+import "./Popup.css";
+import convertMoney from "../../convertMoney";
 function Popup(props) {
   if (!props.open) return null;
 
   return (
-    
     <div onClick={props.onClose} className="overlay">
       <div
         onClick={(e) => {
@@ -19,14 +19,15 @@ function Popup(props) {
             X
           </p>
           <div className="content">
-            <h4 >{props.name}</h4>
-            <p>{props.price.replace(/\B(?=(\d{3})+(?!\d))/g, ',')} VND</p>
+            <h4>{props.name}</h4>
+            <p> {convertMoney(props.price)}VND</p>
             <p className=" text-muted">{props.shortDesc} </p>
           </div>
           <div className=" ps-4 pb-4">
             <button className="btnPrimary">
-            <FaShoppingCart className=" pe-1 pt-1 h5" />
-              View Detail</button>
+              <FaShoppingCart className=" pe-1 pt-1 h5" />
+              View Detail
+            </button>
           </div>
         </div>
       </div>
