@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import convertMoney from "../convertMoney";
 import banner from "../images/banner1.jpg";
 import product1 from "../images/product_1.png";
 import product2 from "../images/product_2.png";
@@ -8,8 +9,7 @@ import product4 from "../images/product_4.png";
 import product5 from "../images/product_5.png";
 import Popup from "../components/Popup/Popup";
 
-const url =
-  "https://firebasestorage.googleapis.com/v0/b/funix-subtitle.appspot.com/o/Boutique_products.json?alt=media&token=dc67a5ea-e3e0-479e-9eaf-5e01bcd09c74";
+const url = "http://localhost:5000/products";
 const Home = () => {
   const navigate = useNavigate();
   const [products, setProducts] = useState([]);
@@ -46,7 +46,10 @@ const Home = () => {
                   New Inspiration 2020
                 </p>
                 <h1 className=" text-uppercase mb-3">20% off on new season</h1>
-                <Link className="btn btn-dark" onClick={() => navigate("/shop")}>
+                <Link
+                  className="btn btn-dark"
+                  onClick={() => navigate("/shop")}
+                >
                   Browse collections
                 </Link>
               </div>
@@ -138,7 +141,8 @@ const Home = () => {
                       {product.name}
                     </p>
                     <p className=" text-muted">
-                      {product.price.replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
+                      {/* {product.price.replace(/\B(?=(\d{3})+(?!\d))/g, ",")} */}
+                      {convertMoney(product.price)}
                       VND
                     </p>
                   </div>
