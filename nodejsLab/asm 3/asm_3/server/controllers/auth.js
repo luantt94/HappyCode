@@ -1,66 +1,75 @@
 import User from "../models/user.models.js";
 import jwt from "jsonwebtoken";
 import bcrypt from "bcrypt";
-import createError from "../utils/createError.js";
+import { createError } from "../middleware/error.js";
+import { validationResult } from "express-validator";
+
+// Create Access Token
+const generateAccessToken = (user) => {
+  return jwt.sign(user, process.env.ACCESS_TOKEN_SECRET, {
+    expiresIn: "30d",
+  });
+};
+
+// Register User
 export const register = async (req, res, next) => {
-  console.log("register");
   try {
+    const errors = validationResult(req);
+
+    if (!errors.isEmpty()) {
+      return res.status(422).json(errors.array()[0].msg);
+    }
+
     const salt = bcrypt.genSaltSync(10);
-    console.log("salt");
-    console.log(salt);
-    console.log(req.body.password);
     const hash = bcrypt.hashSync(req.body.password, salt);
+
     const newUser = new User({
-      username: req.body.username,
-      email: req.body.email,
+      ...req.body,
+      cart: { items: [] },
       password: hash,
-      phone: req.body.phone,
     });
 
-    await newUser.save();
-    res.status(200).send("User has been created.");
+    const result = await newUser.save();
+    res.status(201).json({
+      message: "User has been created !",
+      userId: result._id,
+    });
   } catch (err) {
     console.log(err);
   }
 };
 
+// Login
 export const login = async (req, res, next) => {
-  console.log("loggin");
   try {
-    const user = await User.findOne({ username: req.body.username });
+    // check email exists
+    const errors = validationResult(req);
 
-    if (!user) return next(createError(404, "User not found!"));
+    if (!errors.isEmpty()) {
+      return res.status(422).json(errors.array()[0].msg);
+    }
 
-    const isCorrect = await bcrypt.compareSync(
+    // check password
+    const isPasswordCorrect = await bcrypt.compare(
       req.body.password,
-      user.password
+      req.user.password
     );
-    if (!isCorrect)
-      return next(createError(400, "wrong password ot username!"));
 
-    // const token = jwt.sign(
-    //   {
-    //     id: user._id,
-    //     isSeller: user.isSeller,
-    //   },
-    //   process.env.JWT_KEY
-    // );
-
-    // const { password, ...info } = user._doc;
-    // res
-    //   .cookie("accessToken", token, {
-    //     httpOnly: true,
-    //   })
-    //   .status(200)
-    //   .send(info);
-    res.status(200).json(user);
+    if (!isPasswordCorrect) return next(createError(400, "Wrong password!"));
+    const { password, ...otherDetails } = req.user._doc;
+    // create token
+    const accessToken = generateAccessToken({ ...otherDetails });
+    // response client
+    res.status(200).json({ accessToken, details: { ...otherDetails } });
   } catch (err) {
     next(err);
   }
 };
 
-export const logout = (req, res, next) => {
-  req.session.destroy((err) => {
-    res.status(200).json("Logout success!");
+export const logout = (req, res) => {
+  res.cookie("accessToken", "", {
+    httpOnly: true,
+    expires: new Date(0),
   });
+  res.status(200).json({ message: "Logged out successfully" });
 };
