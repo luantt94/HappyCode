@@ -8,20 +8,28 @@ import { Col } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import { getCartTotal } from "../redux/cartSlice";
 import { useEffect } from "react";
-
+import { useLogoutMutation } from "../redux/usersApiSlice";
+import { logout } from "../slices/authSlice";
 function NavBar() {
-  const dispatch = useDispatch();
   // const { totalQuantity } = useSelector((state) => state.cart);
-  const userLogin = JSON.parse(localStorage.getItem("isLogin"));
+  // const userLogin = JSON.parse(localStorage.getItem("isLogin"));
+  const { userInfo } = useSelector((state) => state.auth);
   const navigate = useNavigate();
 
-  useEffect(() => {
-    dispatch(getCartTotal);
-  }, []);
+  const dispatch = useDispatch();
 
-  const handleLogout = () => {
-    localStorage.removeItem("isLogin");
-    navigate("/");
+  const [logoutApiCall] = useLogoutMutation();
+
+  const handleLogout = async () => {
+    try {
+      await logoutApiCall().unwrap();
+      dispatch(logout());
+
+      // dispatch(resetCart());
+      navigate("/login");
+    } catch (err) {
+      console.error(err);
+    }
   };
 
   return (
@@ -56,9 +64,9 @@ function NavBar() {
               <Nav.Link>
                 <FaUser className="pe-1 h5 pt-1" />
 
-                {userLogin ? (
+                {userInfo ? (
                   <>
-                    <span className=" pe-2">{userLogin.fullName}</span>
+                    <span className=" pe-2">{userInfo.username}</span>
                     <span
                       className=" text-success fw-bold"
                       onClick={() => handleLogout()}
