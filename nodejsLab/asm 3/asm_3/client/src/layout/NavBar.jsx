@@ -6,8 +6,6 @@ import { Link, Outlet, useNavigate } from "react-router-dom";
 import { FaUser, FaShoppingCart } from "react-icons/fa";
 import { Col } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
-import { getCartTotal } from "../redux/cartSlice";
-import { useEffect } from "react";
 import { useLogoutMutation } from "../redux/usersApiSlice";
 import { logout } from "../slices/authSlice";
 function NavBar() {

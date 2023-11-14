@@ -7,9 +7,7 @@ const ShopProvider = ({ children }) => {
   const [products, setProducts] = useState(null);
 
   const getProducts = async () => {
-    const res = await axios.get(
-      "https://firebasestorage.googleapis.com/v0/b/funix-subtitle.appspot.com/o/Boutique_products.json?alt=media&token=dc67a5ea-e3e0-479e-9eaf-5e01bcd09c74&fbclid=IwAR0T2ANMxEaga0WAuaZRfp0tHsJFOmDJB5jVcEPsvW4ugr7HK70RyYP6S6s"
-    );
+    const res = await axios.get("http://localhost:5000/products");
 
     setProducts(res.data);
   };
