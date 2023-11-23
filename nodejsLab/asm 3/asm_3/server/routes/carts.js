@@ -8,8 +8,8 @@ import {
 import { verifyToken } from "../middleware/verifyToken.js";
 const router = express.Router();
 
-router.get("/", verifyToken, getCart);
-router.post("/addCart", postCart);
+router.get("/", getCart);
+router.post("/addCart", verifyToken, postCart);
 router.delete("/deleteProductCart/:productId", verifyToken, deleteCart);
 router.put("/updateCart/", verifyToken, updateCart);
 

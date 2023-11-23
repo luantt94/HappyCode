@@ -15,11 +15,11 @@ const generateAccessToken = (user) => {
 export const register = async (req, res, next) => {
   console.log("call register controller");
   try {
-    // const errors = validationResult(req);
+    const errors = validationResult(req);
 
-    // if (!errors.isEmpty()) {
-    //   return res.status(422).json(errors.array()[0].msg);
-    // }
+    if (!errors.isEmpty()) {
+      return res.status(422).json(errors.array()[0].msg);
+    }
 
     const salt = bcrypt.genSaltSync(10);
     const hash = bcrypt.hashSync(req.body.password, salt);

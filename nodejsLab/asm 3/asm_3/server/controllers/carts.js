@@ -1,16 +1,21 @@
 import Product from "../models/products.models.js";
 
 export const getCart = (req, res, next) => {
+  console.log("get cart");
   const cart = req.user.cart.items;
   res.status(200).json(cart);
 };
 
 export const postCart = (req, res, next) => {
+  console.log("post cart controler");
+  console.log(req.body);
   const { productId, quantity } = req.body;
 
   Product.findById(productId)
 
     .then((product) => {
+      console.log("req.user");
+      console.log(req.user);
       return req.user.addToCart(product, quantity);
     })
     .then((result) => {

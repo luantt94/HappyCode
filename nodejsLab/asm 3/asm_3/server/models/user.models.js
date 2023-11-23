@@ -49,6 +49,9 @@ const UserSchema = new mongoose.Schema(
 );
 
 UserSchema.methods.addToCart = function (product, count) {
+  console.log(
+    "************************************************user model addToCart"
+  );
   const cartProductIndex = this.cart.items.findIndex((cp) => {
     return cp.productId.toString() === product._id.toString();
   });
