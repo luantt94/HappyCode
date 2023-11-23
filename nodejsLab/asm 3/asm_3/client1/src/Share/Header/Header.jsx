@@ -14,7 +14,8 @@ function Header(props) {
   const [nameUser, setNameUser] = useState();
 
   const user = JSON.parse(localStorage.getItem("user"));
-
+  console.log("USER");
+  console.log(user);
   useEffect(() => {
     if (user) {
       setIsLogin(true);

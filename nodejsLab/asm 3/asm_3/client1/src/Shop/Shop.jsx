@@ -353,6 +353,7 @@ function Shop(props) {
                 pagination={pagination}
                 handlerChangePage={handlerChangePage}
                 totalPage={totalPage}
+                numOfResult={numOfResult}
               />
             </div>
           </div>

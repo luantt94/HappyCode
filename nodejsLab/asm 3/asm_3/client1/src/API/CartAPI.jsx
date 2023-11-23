@@ -1,25 +1,29 @@
-import axiosClient from './axiosClient';
+import axiosClient from "./axiosClient";
 
 const CartAPI = {
-	getCarts: (query) => {
-		const url = `/carts${query}`;
-		return axiosClient.get(url);
-	},
+  getCarts: () => {
+    const url = `/carts`;
+    return axiosClient.get(url);
+  },
 
-	postAddToCart: (query) => {
-		const url = `/carts/add${query}`;
-		return axiosClient.post(url);
-	},
+  postAddToCart: (cart) => {
+    console.log("post add cart");
 
-	deleteToCart: (query) => {
-		const url = `/carts/delete${query}`;
-		return axiosClient.delete(url);
-	},
+    console.log("cart");
+    console.log(cart);
+    const url = `/carts/addCart`;
+    return axiosClient.post(url, cart);
+  },
 
-	putToCart: (query) => {
-		const url = `/carts/update${query}`;
-		return axiosClient.put(url);
-	},
+  deleteToCart: (productId) => {
+    const url = `/carts/deleteProductCart/${productId}`;
+    return axiosClient.delete(url);
+  },
+
+  putToCart: ({ productId, quantity }) => {
+    const url = `/carts/updateCart`;
+    return axiosClient.put(url, { productId, quantity });
+  },
 };
 
 export default CartAPI;
