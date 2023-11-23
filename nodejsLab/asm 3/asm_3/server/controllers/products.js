@@ -1,7 +1,7 @@
-// import { createError } from "../middleware/error.js";
+import { createError } from "../middleware/error.js";
 import Product from "../models/products.models.js";
 
-// const numOfPage = 9;
+const numOfPage = 9;
 // Get All Product
 export const getProducts = async (req, res, next) => {
   await Product.find()
@@ -96,39 +96,39 @@ export const deleteProduct = async (req, res, next) => {
 };
 
 // Search Product
-// export const pagination = async (req, res, next) => {
-//   try {
-//     const page = parseInt(req.query.page) || 1;
-//     const keyword = req.query.search;
-//     const category = req.query.category;
+export const pagination = async (req, res, next) => {
+  try {
+    const page = parseInt(req.query.page) || 1;
+    const keyword = req.query.search;
+    const category = req.query.category;
 
-//     const start = (page - 1) * numOfPage;
-//     const end = page * numOfPage;
+    const start = (page - 1) * numOfPage;
+    const end = page * numOfPage;
 
-//     let products;
-//     let totalPage;
-//     let numOfResult;
+    let products;
+    let totalPage;
+    let numOfResult;
 
-//     if (category === "all") {
-//       products = await Product.find();
-//     } else {
-//       products = await Product.find({ category: category });
-//     }
+    if (category === "all") {
+      products = await Product.find();
+    } else {
+      products = await Product.find({ category: category });
+    }
 
-//     if (keyword) {
-//       products = products.filter((product) => {
-//         return (
-//           product.name.toUpperCase().indexOf(keyword.toUpperCase()) !== -1 ||
-//           product.category.toUpperCase().indexOf(keyword.toUpperCase()) !== -1
-//         );
-//       });
-//     }
+    if (keyword) {
+      products = products.filter((product) => {
+        return (
+          product.name.toUpperCase().indexOf(keyword.toUpperCase()) !== -1 ||
+          product.category.toUpperCase().indexOf(keyword.toUpperCase()) !== -1
+        );
+      });
+    }
 
-//     totalPage = Math.ceil(products.length / numOfPage);
-//     numOfResult = products.length;
-//     products = products.slice(start, end);
-//     return res.status(200).json({ products, totalPage, numOfResult });
-//   } catch (err) {
-//     next(err);
-//   }
-// };
+    totalPage = Math.ceil(products.length / numOfPage);
+    numOfResult = products.length;
+    products = products.slice(start, end);
+    return res.status(200).json({ products, totalPage, numOfResult });
+  } catch (err) {
+    next(err);
+  }
+};

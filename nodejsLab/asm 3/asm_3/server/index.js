@@ -9,6 +9,7 @@ import cors from "cors";
 import authRoute from "./routes/auth.js";
 import usersRoute from "./routes/users.js";
 import productsRoute from "./routes/products.js";
+import cartsRoute from "./routes/carts.js";
 
 const app = express();
 app.use(cors());
@@ -20,6 +21,7 @@ app.use(express.json());
 app.use("/auth", authRoute);
 app.use("/products", productsRoute);
 app.use("/users", usersRoute);
+app.use("/carts", cartsRoute);
 
 //! Connect-Mongodb-Session
 const MongoDBStore = connectMongoDBSession(session);

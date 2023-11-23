@@ -4,9 +4,12 @@ import {
   deleteProduct,
   getDetailProduct,
   getProducts,
+  pagination,
 } from "../controllers/products.js";
 
 const router = express.Router();
+
+router.get("/pagination", pagination);
 
 // GET Product
 router.get("/", getProducts);
