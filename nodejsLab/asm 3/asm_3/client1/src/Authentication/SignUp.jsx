@@ -6,7 +6,7 @@ import "./Auth.css";
 SignUp.propTypes = {};
 
 function SignUp(props) {
-  const [fullname, setFullName] = useState("");
+  const [fullName, setFullName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [phone, setPhone] = useState("");
@@ -38,7 +38,7 @@ function SignUp(props) {
   const handlerSignUp = (e) => {
     e.preventDefault();
 
-    if (!fullname) {
+    if (!fullName) {
       setFullnameError(true);
       setEmailError(false);
       setPhoneError(false);
@@ -95,7 +95,7 @@ function SignUp(props) {
             } else {
               const fetchSignUp = async () => {
                 const newUser = {
-                  fullname: fullname,
+                  fullName: fullName,
                   email: email,
                   password: password,
                   phone: phone,
@@ -161,7 +161,7 @@ function SignUp(props) {
             <div className="wrap-input100 validate-input">
               <input
                 className="input100"
-                value={fullname}
+                value={fullName}
                 onChange={onChangeName}
                 type="text"
                 placeholder="Full Name"

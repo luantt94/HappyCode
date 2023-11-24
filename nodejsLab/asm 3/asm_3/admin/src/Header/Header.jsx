@@ -59,7 +59,7 @@ function Header(props) {
                 />
                 <span className="ml-2 d-none d-lg-inline-block">
                   <span className="text-dark mr-3">
-                    {user && user.fullname}
+                    {user && user.fullName}
                   </span>{" "}
                   <ExpandMoreIcon />{" "}
                 </span>

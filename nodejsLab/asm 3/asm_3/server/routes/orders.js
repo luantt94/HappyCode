@@ -13,8 +13,8 @@ import { verifyAdmin, verifyToken } from "../middleware/verifyToken.js";
 
 const router = express.Router();
 
-router.post("/", createOrder);
-router.get("/", getOrdersUser);
+router.post("/", verifyToken, createOrder);
+router.get("/", verifyToken, getOrdersUser);
 router.get("/all", verifyAdmin, getOrdersAll);
 router.get("/earningTotal", verifyAdmin, getEarningTotal);
 router.get("/earningEvg", verifyAdmin, getEarningAvg);

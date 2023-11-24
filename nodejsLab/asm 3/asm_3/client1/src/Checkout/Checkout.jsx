@@ -14,7 +14,7 @@ function Checkout(props) {
   const [carts, setCarts] = useState([]);
   const [total, setTotal] = useState(0);
 
-  const [fullname, setFullName] = useState("");
+  const [fullName, setFullName] = useState("");
   const [fullNameError, setFullNameError] = useState(false);
 
   const [email, setEmail] = useState("");
@@ -74,7 +74,7 @@ function Checkout(props) {
   const handlerSubmit = (e) => {
     e.preventDefault();
 
-    if (!fullname) {
+    if (!fullName) {
       setFullNameError(true);
       setEmailError(false);
       setPhoneError(false);
@@ -123,7 +123,7 @@ function Checkout(props) {
               const sendMail = async () => {
                 const params = {
                   email: email,
-                  fullname: fullname,
+                  fullName: fullName,
                   phone: phone,
                   address: address,
                   total: total,
@@ -198,7 +198,7 @@ function Checkout(props) {
                           <input
                             className="form-control form-control-lg"
                             type="text"
-                            name={fullname}
+                            name={fullName}
                             onChange={(e) => setFullName(e.target.value)}
                           />
                           {fullNameError && (

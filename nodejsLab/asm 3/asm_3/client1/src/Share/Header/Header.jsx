@@ -19,7 +19,7 @@ function Header(props) {
   useEffect(() => {
     if (user) {
       setIsLogin(true);
-      setNameUser(user.fullname);
+      setNameUser(user.fullName);
     }
   }, [user]);
 
