@@ -88,10 +88,7 @@ const NewUser = () => {
 					</div>
 				</div>
 			</div>
-			<footer className="footer text-center text-muted">
-				All Rights Reserved by Adminmart. Designed and Developed by
-				<a href="https://www.facebook.com/ngockhanh48/"> Khanhtt.dev</a>.
-			</footer>
+			
 		</div>
 	);
 };

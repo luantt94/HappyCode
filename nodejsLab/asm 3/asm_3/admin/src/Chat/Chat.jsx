@@ -254,10 +254,7 @@ function Chat(props) {
 					</div>
 				</div>
 			</div>
-			<footer className="footer text-center">
-				All Rights Reserved by Adminmart. Designed and Developed by{' '}
-				<a href="https://www.facebook.com/ngockhanh48/">Khanhtt.dev</a>.
-			</footer>
+		
 		</div>
 	);
 }

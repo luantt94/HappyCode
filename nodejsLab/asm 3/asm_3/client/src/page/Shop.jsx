@@ -3,7 +3,9 @@ import ProductList from "../components/ProductList";
 import Search from "../components/Search";
 import SortProduct from "../components/SortProduct";
 import { ShopContext } from "../context/app";
+import { useDispatch, useSelector } from "react-redux";
 import { FaAngleDoubleLeft, FaAngleDoubleRight } from "react-icons/fa";
+import { useGetProductsQuery } from "../slices/productsApiSlice";
 
 const Shop = () => {
   const [category, setCategory] = useState([
@@ -21,18 +23,20 @@ const Shop = () => {
     },
   ]);
 
-  const { product } = useContext(ShopContext);
-  const [products, setProducts] = useState(product);
+  const { data: products, isLoading, error } = useGetProductsQuery();
+  console.log("products");
+  console.log(products);
+  const [filterProducts, setFilterProducts] = useState(products);
 
   const [filter, setFilter] = useState("all");
   useEffect(() => {
     if (filter === "all") {
-      setProducts(product);
+      setFilterProducts(products);
     } else {
-      const req = product.filter((pr) => pr.category === filter);
-      setProducts(req);
+      const req = products.filter((pr) => pr.category === filter);
+      setFilterProducts(req);
     }
-  }, [filter, product]);
+  }, [filter, products]);
 
   //   const handlerSearch = (value) => {
   //     console.log("Value: ", value)
@@ -83,6 +87,7 @@ const Shop = () => {
                 </span>
               </div>
             </div>
+
             {category.map((cate, index) => (
               <div key={index}>
                 <div className=" bg-light px-4 py-2 fw-bold fst-italic">
@@ -117,8 +122,8 @@ const Shop = () => {
             </div>
             <div className="col-lg-12">
               <div className="row">
-                {products &&
-                  products.map((i) => <ProductList i={i} key={i._id.$oid} />)}
+                {filterProducts &&
+                  filterProducts.map((i) => <ProductList i={i} key={i._id} />)}
                 <div className="row ">
                   <div className=" col-lg-12">
                     <div className=" d-flex justify-content-end">

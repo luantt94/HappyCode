@@ -69,13 +69,13 @@ function Home(props) {
                           <p className="text-small mb-4">{value.short_desc}</p>
                           <div className="row align-items-stretch mb-4">
                             <div className="col-sm-5 pl-sm-0 fix_addwish">
-                              <Link
-                                to={`/detail/${value._id}`}
+                              <a
+                                href={`/detail/${value._id}`}
                                 className="btn btn-dark btn-sm btn-block h-100 d-flex align-items-center justify-content-center px-0"
                               >
                                 <i className="fa fa-shopping-cart"></i>
                                 <span className="ml-2">View Detail</span>
-                              </Link>
+                              </a>
                             </div>
                           </div>
                         </div>

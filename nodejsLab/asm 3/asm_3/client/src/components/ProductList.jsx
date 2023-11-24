@@ -6,7 +6,7 @@ const ProductList = ({ i }) => {
   return (
     <div className="col-md-4 col-lg-4">
       <div className=" w-100 h-auto">
-        <Link to={`/detail/${i._id.$oid}`}>
+        <Link to={`/detail/${i._id}`}>
           <img className=" img-fluid" src={i.img1} alt="" />
         </Link>
         <div className=" text-center">

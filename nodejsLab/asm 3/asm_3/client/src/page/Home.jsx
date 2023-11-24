@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import convertMoney from "../convertMoney";
 import banner from "../images/banner1.jpg";
@@ -148,7 +148,7 @@ const Home = () => {
                         {product.name}
                       </p>
                       <p className=" text-muted">
-                        {/* {product.price.replace(/\B(?=(\d{3})+(?!\d))/g, ",")} */}
+                      
                         {convertMoney(product.price)}
                         VND
                       </p>

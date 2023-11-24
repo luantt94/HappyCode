@@ -1,10 +1,9 @@
-import React, {  useState } from "react";
+import React, { useState } from "react";
 
 import { Link, Redirect } from "react-router-dom";
 import UserAPI from "../API/UserAPI";
 
 import "./Auth.css";
-
 
 function SignIn(props) {
   const [err, setErr] = useState("");

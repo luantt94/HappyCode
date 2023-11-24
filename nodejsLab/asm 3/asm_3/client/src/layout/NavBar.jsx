@@ -1,5 +1,7 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
+import { Badge } from "react-bootstrap";
+
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link, Outlet, useNavigate } from "react-router-dom";
@@ -11,6 +13,8 @@ import { logout } from "../slices/authSlice";
 function NavBar() {
   // const { totalQuantity } = useSelector((state) => state.cart);
   // const userLogin = JSON.parse(localStorage.getItem("isLogin"));
+  const { cartItems } = useSelector((state) => state.cart);
+
   const { userInfo } = useSelector((state) => state.auth);
   const navigate = useNavigate();
 
@@ -53,10 +57,12 @@ function NavBar() {
               <Nav.Link as={Link} to="/cart">
                 <div className=" d-flex gap-1 position-relative">
                   <FaShoppingCart className="  pe-1 pt-1 h5" />
-                  {/* <div className="amount-container">
-                    <p className="total-amount">{totalQuantity}</p>
-                  </div> */}
-                  <p>Cart</p>
+                  Cart
+                  {cartItems.length > 0 && (
+                    <Badge pill bg="success" style={{ marginLeft: "5px" }}>
+                      {cartItems.reduce((a, c) => a + c.qty, 0)}
+                    </Badge>
+                  )}
                 </div>
               </Nav.Link>
               <Nav.Link>
