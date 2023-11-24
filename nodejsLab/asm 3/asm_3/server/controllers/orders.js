@@ -1,5 +1,5 @@
 import nodemailer from "nodemailer";
-import { createError } from "../middlewares/error.js";
+import { createError } from "../middleware/error.js";
 import Order from "../models/Order.js";
 import Product from "../models/products.models.js";
 
@@ -19,6 +19,7 @@ const transporter = nodemailer.createTransport({
 });
 
 export const createOrder = async (req, res, next) => {
+  console.log("create oder");
   try {
     const userId = req.user._id;
     const { phone, email, total, fullName, address } = req.body;

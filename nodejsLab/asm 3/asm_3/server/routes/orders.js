@@ -8,13 +8,13 @@ import {
   getCountOrder,
   updateOrder,
   getEarningAvg,
-} from "../controller/orders.js";
-import { verifyAdmin, verifyToken } from "../middlewares/verifyToken.js";
+} from "../controllers/orders.js";
+import { verifyAdmin, verifyToken } from "../middleware/verifyToken.js";
 
 const router = express.Router();
 
-router.post("/", verifyToken, createOrder);
-router.get("/", verifyToken, getOrdersUser);
+router.post("/", createOrder);
+router.get("/", getOrdersUser);
 router.get("/all", verifyAdmin, getOrdersAll);
 router.get("/earningTotal", verifyAdmin, getEarningTotal);
 router.get("/earningEvg", verifyAdmin, getEarningAvg);

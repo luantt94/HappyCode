@@ -4,12 +4,14 @@ import mongoose from "mongoose";
 // import cookieParser from "cookie-parser";
 import session from "express-session";
 import connectMongoDBSession from "connect-mongodb-session";
-
+import { Server } from "socket.io";
+import socket from "./utils/socket.js";
 import cors from "cors";
 import authRoute from "./routes/auth.js";
 import usersRoute from "./routes/users.js";
 import productsRoute from "./routes/products.js";
 import cartsRoute from "./routes/carts.js";
+import ordersRoute from "./routes/orders.js";
 
 const app = express();
 app.use(cors());
@@ -22,6 +24,7 @@ app.use("/auth", authRoute);
 app.use("/products", productsRoute);
 app.use("/users", usersRoute);
 app.use("/carts", cartsRoute);
+app.use("/orders", ordersRoute);
 
 //! Connect-Mongodb-Session
 const MongoDBStore = connectMongoDBSession(session);
@@ -63,7 +66,11 @@ const connect = async () => {
   }
 };
 
-app.listen(5000, () => {
+const server = app.listen(5000, () => {
   connect();
   console.log("run run");
 });
+
+//! Socket.io
+const io = new Server(server);
+socket(io);
