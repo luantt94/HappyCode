@@ -15,8 +15,20 @@ const ProductSchema = new Schema(
       type: Number,
       required: true,
     },
-    imageURL: {
-      type: [],
+    img1: {
+      type: String,
+      required: true,
+    },
+    img2: {
+      type: String,
+      required: true,
+    },
+    img3: {
+      type: String,
+      required: true,
+    },
+    img4: {
+      type: String,
       required: true,
     },
     stock: {

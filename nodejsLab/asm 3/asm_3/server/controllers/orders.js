@@ -3,21 +3,6 @@ import { createError } from "../middleware/error.js";
 import Order from "../models/Order.js";
 import Product from "../models/products.models.js";
 
-const adminEmail = process.env.MAIL_USERNAME; // Email
-
-const adminPassword = process.env.MAIL_PASSWORD; // Password
-
-const transporter = nodemailer.createTransport({
-  service: "gmail",
-  host: "smtp.gmail.com",
-  port: 587,
-  secure: false,
-  auth: {
-    user: adminEmail, // generated ethereal user
-    pass: adminPassword, // generated ethereal password
-  },
-});
-
 export const createOrder = async (req, res, next) => {
   console.log("create oder");
   try {
@@ -41,6 +26,27 @@ export const createOrder = async (req, res, next) => {
           },
         });
       }
+    });
+    // Create a new order
+    const newOrder = new Order({
+      userId: userId,
+      phone: phone,
+      email: email,
+      total: total,
+      fullName: fullName,
+      address: address,
+      orders: cart,
+    });
+
+    const result = await newOrder.save();
+    const username = process.env.MAIL_USERNAME;
+    const password = process.env.MAIL_PASSWORD;
+    const transporter = nodemailer.createTransport({
+      service: "gmail",
+      auth: {
+        user: username,
+        pass: password,
+      },
     });
 
     const htmlHead =
@@ -91,31 +97,20 @@ export const createOrder = async (req, res, next) => {
       "VNĐ</br>" +
       "<p>Cảm ơn bạn!</p>";
 
-    const newOrder = new Order({
-      userId: userId,
-      phone: phone,
-      email: email,
-      total: total,
-      fullName: fullName,
-      address: address,
-      orders: cart,
-    });
-
-    const result = await newOrder.save();
-
     const subject = "Hóa Đơn Đặt Hàng";
 
     const mailDetails = {
-      from: adminEmail,
+      from: "chientcfx20002@funix.edu.vn",
       to: email,
       subject: subject,
       html: htmlResult,
     };
-    transporter.sendMail(mailDetails, function (err, data) {
-      if (err) {
-        console.log(err);
+
+    transporter.sendMail(mailDetails, (error, info) => {
+      if (error) {
+        console.error("Error sending email:", error);
       } else {
-        console.log("Email sent successfully");
+        console.log("Email sent successfully:", info.response);
       }
     });
 
@@ -172,9 +167,12 @@ export const getOrdersAll = async (req, res, next) => {
 };
 
 export const getEarningTotal = async (req, res, next) => {
+  console.log("getEarningTotal");
   try {
     const orders = await Order.find();
+    console.log(orders);
     const total = orders.map((order) => {
+      console.log(total);
       return Number(order.total);
     });
 

@@ -43,6 +43,7 @@ const UserSchema = new mongoose.Schema(
     role: {
       type: String,
       default: "customer",
+      // default: "admin",
     },
   },
   { timestamps: true }
@@ -52,6 +53,7 @@ UserSchema.methods.addToCart = function (product, count) {
   console.log(
     "************************************************user model addToCart"
   );
+  console.log(product);
   const cartProductIndex = this.cart.items.findIndex((cp) => {
     return cp.productId.toString() === product._id.toString();
   });
@@ -64,7 +66,7 @@ UserSchema.methods.addToCart = function (product, count) {
     updateCartItems.push({
       nameProduct: product.name,
       priceProduct: product.price,
-      img: product.imageURL[0],
+      img: product.img1,
       productId: product._id,
       quantity: count,
     });

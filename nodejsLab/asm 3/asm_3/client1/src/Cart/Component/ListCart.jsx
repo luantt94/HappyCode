@@ -49,27 +49,21 @@ function ListCart(props) {
         <thead className="bg-light">
           <tr className="text-center">
             <th className="border-0" scope="col">
-              {" "}
               <strong className="text-small text-uppercase">Image</strong>
             </th>
             <th className="border-0" scope="col">
-              {" "}
               <strong className="text-small text-uppercase">Product</strong>
             </th>
             <th className="border-0" scope="col">
-              {" "}
               <strong className="text-small text-uppercase">Price</strong>
             </th>
             <th className="border-0" scope="col">
-              {" "}
               <strong className="text-small text-uppercase">Quantity</strong>
             </th>
             <th className="border-0" scope="col">
-              {" "}
               <strong className="text-small text-uppercase">Total</strong>
             </th>
             <th className="border-0" scope="col">
-              {" "}
               <strong className="text-small text-uppercase">Remove</strong>
             </th>
           </tr>
@@ -80,12 +74,14 @@ function ListCart(props) {
               <tr className="text-center" key={index}>
                 <td className="pl-0 border-0">
                   <div className="media align-items-center justify-content-center">
-                    <Link
+                    {/* <Link
                       className="reset-anchor d-block animsition-link"
                       to={`/detail/${value.idProduct}`}
-                    >
-                      <img src={value.img} alt="..." width="70" />
-                    </Link>
+                    > */}
+                    {console.log("listCart")}
+                    {console.log(listCart)}
+                    <img src={value.img} alt="..." width="70" />
+                    {/* </Link> */}
                   </div>
                 </td>
                 <td className="align-middle border-0">

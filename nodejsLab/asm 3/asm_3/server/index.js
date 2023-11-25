@@ -12,7 +12,7 @@ import usersRoute from "./routes/users.js";
 import productsRoute from "./routes/products.js";
 import cartsRoute from "./routes/carts.js";
 import ordersRoute from "./routes/orders.js";
-
+import chatRoute from "./routes/chat.js";
 const app = express();
 app.use(cors());
 // app.use(cors({ origin: "http://localhost:3000", credentials: true }));
@@ -25,7 +25,7 @@ app.use("/products", productsRoute);
 app.use("/users", usersRoute);
 app.use("/carts", cartsRoute);
 app.use("/orders", ordersRoute);
-
+app.use("/chat", chatRoute);
 //! Connect-Mongodb-Session
 const MongoDBStore = connectMongoDBSession(session);
 const store = new MongoDBStore({

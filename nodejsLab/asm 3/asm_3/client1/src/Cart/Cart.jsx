@@ -49,7 +49,7 @@ function Cart(props) {
       return (sub_total +=
         parseInt(value.priceProduct) * parseInt(value.quantity));
     });
-
+    console.log(sub_total);
     setTotal(sub_total);
   }
 

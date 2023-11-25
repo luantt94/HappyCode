@@ -60,6 +60,7 @@ function Detail(props) {
   useEffect(() => {
     const fetchData = async () => {
       const response = await ProductAPI.getDetail(id);
+      console.log("response");
       console.log(response);
       setDetail(response);
     };
@@ -88,6 +89,7 @@ function Detail(props) {
       count: text,
       img: detail.img1,
     };
+    console.log(data);
 
     if (localStorage.getItem("user")) {
       console.log("Bạn Đã Đăng Nhập!");
