@@ -60,6 +60,7 @@ function Checkout(props) {
       return (sub_total +=
         parseInt(value.priceProduct) * parseInt(value.quantity));
     });
+    console.log("tổng tiền");
     console.log(sub_total);
     setTotal(sub_total);
   }
@@ -129,6 +130,8 @@ function Checkout(props) {
                   total: total,
                   idUser: user._id,
                 };
+                console.log("param");
+                console.log(params);
                 await CheckoutAPI.postOrder(params);
               };
               sendMail();

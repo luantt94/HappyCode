@@ -172,7 +172,6 @@ export const getEarningTotal = async (req, res, next) => {
     const orders = await Order.find();
     console.log(orders);
     const total = orders.map((order) => {
-      console.log(total);
       return Number(order.total);
     });
 
